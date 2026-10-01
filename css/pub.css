@@ -260,3 +260,13 @@ body, button, input, select, textarea, .pub-btn, .demo-switch__btn { font-family
 .figure.figure--narrow { margin-left: auto; margin-right: auto; }
 .figure--narrow .media { display: block; width: 100%; height: auto; }
 .featured__foot { justify-content: center; }
+
+/* header v5: video + caption are ONE black block exactly one screen tall, the caption pinned to
+   its foot, so no white strip can show under the caption whatever the font size or zoom */
+.vhead-wrap { display: flex; flex-direction: column; height: 100vh; height: 100svh; min-height: 460px; background: #000; }
+.vhead-wrap .vhead { flex: 1 1 auto; height: auto; min-height: 0; }
+.vhead-wrap .vhead-caption { flex: 0 0 auto; margin: 0; }
+@media (max-width: 768px) {
+  .vhead-wrap { height: auto; min-height: 0; }
+  .vhead-wrap .vhead { flex: none; }
+}
