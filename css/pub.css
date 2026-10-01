@@ -288,3 +288,9 @@ body, button, input, select, textarea, .pub-btn, .demo-switch__btn { font-family
 /* the speed button see-through, so it sits lightly over the video */
 .vhead__btn--speed { background: rgba(54, 54, 54, .35); border-color: rgba(255, 255, 255, .25); color: rgba(255, 255, 255, .9); backdrop-filter: blur(2px); }
 .vhead__btn--speed:hover { background: rgba(54, 54, 54, .6); }
+
+/* speed button: more see-through; author names link to their pages in the template's blue */
+.vhead__btn--speed { background: rgba(54, 54, 54, .16); border-color: rgba(255, 255, 255, .22); color: rgba(255, 255, 255, .85); }
+.vhead__btn--speed:hover { background: rgba(54, 54, 54, .4); }
+.publication-authors a { color: var(--pub-link); text-decoration: none; }
+.publication-authors a:hover { text-decoration: underline; }
