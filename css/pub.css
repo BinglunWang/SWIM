@@ -245,3 +245,12 @@ body, button, input, select, textarea, .pub-btn, .demo-switch__btn { font-family
   .vhead-caption { text-align: left; padding: .9rem 16px .2rem; }
   .vhead-caption .vhead__cap { white-space: normal; font-size: .9rem; }
 }
+
+/* header v4: the caption band is black like the video and tighter top and bottom */
+.vhead { height: calc(100vh - 2.5rem); height: calc(100svh - 2.5rem); }
+.vhead-caption { background: #000; padding: .45rem 24px .6rem; margin-bottom: 1.2rem; }
+.vhead-caption .vhead__cap { color: #fff; }
+@media (max-width: 768px) {
+  .vhead { height: auto; }
+  .vhead-caption { padding: .5rem 16px .6rem; }
+}
