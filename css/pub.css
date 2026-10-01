@@ -270,3 +270,17 @@ body, button, input, select, textarea, .pub-btn, .demo-switch__btn { font-family
   .vhead-wrap { height: auto; min-height: 0; }
   .vhead-wrap .vhead { flex: none; }
 }
+
+/* header v6: the two clips top-centre, the speed alone top-right */
+.vhead__clips {
+  position: absolute; z-index: 3; top: calc(2.2rem + env(safe-area-inset-top, 0px)); left: 50%; transform: translateX(-50%);
+  display: flex; gap: 10px; white-space: nowrap;
+}
+.vhead__info { max-width: max-content; }
+@media (max-width: 1100px) {   /* below this the centred pair would run into the title: drop it under the title */
+  .vhead__clips { top: calc(10.4rem + env(safe-area-inset-top, 0px)); }
+}
+@media (max-width: 768px) {
+  .vhead__clips { position: static; transform: none; order: 2; padding: .2rem 16px .6rem; flex-wrap: wrap; white-space: normal; }
+  .vhead__controls { order: 2; padding-top: 0; }
+}

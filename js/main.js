@@ -364,7 +364,7 @@
     var clips = document.querySelectorAll(".vhead__btn[data-clip]");
     var sp = document.getElementById("vhead-speed");
     var SPEEDS = [1, 1.5, 2, 0.5], si = 0;
-    // 5 s of still water, then ONE automatic switch to the challenging conditions; a click
+    // 10 s of still water, then ONE automatic switch to the challenging conditions; a click
     // before that cancels it, and nothing switches by itself afterwards.
     var auto = null, autoDone = false;
     function armAuto() {
@@ -373,7 +373,7 @@
         auto = null; autoDone = true;
         var c = document.querySelector('.vhead__btn[data-clip="cond"]');
         if (c && c.getAttribute("aria-pressed") !== "true") c.click();
-      }, 5000);
+      }, 10000);
     }
     v.addEventListener("playing", armAuto);
     if (!v.paused) armAuto();
