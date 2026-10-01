@@ -284,3 +284,7 @@ body, button, input, select, textarea, .pub-btn, .demo-switch__btn { font-family
   .vhead__clips { position: static; transform: none; order: 2; padding: .2rem 16px .6rem; flex-wrap: wrap; white-space: normal; }
   .vhead__controls { order: 2; padding-top: 0; }
 }
+
+/* the speed button see-through, so it sits lightly over the video */
+.vhead__btn--speed { background: rgba(54, 54, 54, .35); border-color: rgba(255, 255, 255, .25); color: rgba(255, 255, 255, .9); backdrop-filter: blur(2px); }
+.vhead__btn--speed:hover { background: rgba(54, 54, 54, .6); }
