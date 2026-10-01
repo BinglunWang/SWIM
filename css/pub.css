@@ -13,7 +13,7 @@
 html { scroll-padding-top: 16px; }
 
 body {
-  font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: var(--pub-text);
   background: #ffffff;
   font-size: 16px;
@@ -27,12 +27,12 @@ a { color: var(--pub-link); }
 /* ---- hero ------------------------------------------------------------------------------- */
 .pub-hero { padding: 3rem 0 1.5rem; text-align: center; }
 .publication-title {
-  font-family: 'Google Sans', 'Noto Sans', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 3rem; font-weight: 600; line-height: 1.125; color: var(--pub-ink);
   margin: 0 0 1.5rem; text-wrap: balance;
 }
 .publication-authors {
-  font-family: 'Google Sans', 'Noto Sans', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.25rem; color: var(--pub-text); margin: 0 0 .25rem;
 }
 .publication-affil { font-size: 1.05rem; }
@@ -59,12 +59,12 @@ a { color: var(--pub-link); }
 /* ---- sections ------------------------------------------------------------------------- */
 .pub-section { padding: 1.5rem 0; }
 .pub-title-3 {
-  font-family: 'Google Sans', 'Noto Sans', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem; font-weight: 600; line-height: 1.125; color: var(--pub-ink);
   text-align: center; margin: 1rem 0 1.5rem;
 }
 .pub-title-4, .pub-title-5 {
-  font-family: 'Google Sans', 'Noto Sans', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 600; line-height: 1.25; color: var(--pub-ink);
 }
 .pub-title-4 { font-size: 1.5rem; margin: 3rem 0 1rem; }
@@ -101,7 +101,7 @@ body.pub-noscroll { overflow: hidden; }
   backdrop-filter: blur(6px);
 }
 .fullpage__title {
-  font-family: 'Google Sans', 'Noto Sans', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.35rem; font-weight: 600; color: var(--pub-ink); min-width: 0;
 }
 .fullpage__sub { display: block; font-size: .85rem; font-weight: 400; color: #7a7a7a; }
@@ -133,3 +133,18 @@ body.pub-noscroll { overflow: hidden; }
 .demo-switch__btn:hover { border-color: #b5b5b5; }
 .demo-switch__btn[aria-pressed="true"] { background: var(--pub-ink); border-color: var(--pub-ink); color: #fff; }
 .showcase video[hidden] { display: none; }
+
+/* ---- Arial everywhere, Figure 6 colours on every result box (2026-10-01) ------------------
+   Figure 6 badges: C blue 59769F, L brown 83724F, U teal 587984 (R slate 5E7790 is too close
+   to C to tell apart). SWIM and every non-baseline box: C. Imitation baselines: L. Surrogates: U. */
+:root {
+  --font: Arial, Helvetica, sans-serif;
+  --mono: Arial, Helvetica, sans-serif;
+  --fig6-c: #59769F; --fig6-l: #83724F; --fig6-u: #587984;
+  --accent: var(--fig6-c);
+  --m-ours: var(--fig6-c); --m-total_raw: var(--fig6-c); --m-body_token: var(--fig6-c);
+  --m-amp: var(--fig6-l); --m-deepmimic: var(--fig6-l); --m-add: var(--fig6-l);
+  --m-pinn: var(--fig6-u); --m-uwsim: var(--fig6-u); --m-hisph: var(--fig6-u); --m-mjfluid: var(--fig6-u);
+}
+body, button, input, select, textarea, .pub-btn, .demo-switch__btn { font-family: Arial, Helvetica, sans-serif; }
+:where(.card) { --m-color: var(--fig6-c); }   /* zero specificity: the method classes still win */
