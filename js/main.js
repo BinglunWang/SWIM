@@ -310,8 +310,9 @@
       }
       var v = document.createElement("video");
       v.className = "media";
-      v.setAttribute("src", view === "side" ? item.sideSrc : item.src);
-      v.poster = (view === "side" ? item.sidePoster : item.poster) || "";
+      // ?v=: these files were swapped for the full-resolution masters under the same names
+      v.setAttribute("src", (view === "side" ? item.sideSrc : item.src) + "?v=hd1");
+      v.poster = ((view === "side" ? item.sidePoster : item.poster) || "") + "?v=hd1";
       setupVideo(v, cardName(item));
       v.addEventListener("mouseenter", function () { v.play().catch(function () {}); });
       v.addEventListener("mouseleave", function () { v.pause(); });
