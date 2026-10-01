@@ -254,3 +254,9 @@ body, button, input, select, textarea, .pub-btn, .demo-switch__btn { font-family
   .vhead { height: auto; }
   .vhead-caption { padding: .5rem 16px .6rem; }
 }
+
+/* the 2.1-2.5 explanation figures centred (".figure" above had reset their auto side margins);
+   the example labels are gone, so the "See more results" button is centred */
+.figure.figure--narrow { margin-left: auto; margin-right: auto; }
+.figure--narrow .media { display: block; width: 100%; height: auto; }
+.featured__foot { justify-content: center; }

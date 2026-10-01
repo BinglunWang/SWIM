@@ -7,8 +7,8 @@
   <meta name="description" content="Reinforcement learning for physically-based character swimming, trained from a single reference motion in a coupled DFSPH and articulated-body simulator." />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
-  <link rel="stylesheet" href="css/style.css?v=20261001h" />
-  <link rel="stylesheet" href="css/pub.css?v=20261001h" />
+  <link rel="stylesheet" href="css/style.css?v=20261001i" />
+  <link rel="stylesheet" href="css/pub.css?v=20261001i" />
   <script>
     try {
       var v = localStorage.getItem("swim.view");
@@ -69,7 +69,7 @@
 <section class="pub-section">
   <div class="pub-container">
     <figure class="teaser">
-        <img class="media" src="assets/images/teaser.png?v=20261001h" alt="SWIM overview" width="3000" height="1073">
+        <img class="media" src="assets/images/teaser.png?v=20261001i" alt="SWIM overview" width="3000" height="1073">
         <figcaption class="cap">Trained on a single goal-reaching task in still water (left), SWIM learns one policy (middle) that generalizes to unseen tasks, flows, fluids, perturbations and body geometries (right).</figcaption>
       </figure>
   </div>
@@ -94,7 +94,6 @@
 <div class="featured">
   <div class="gallery featured__gallery" data-feature-mount="cmp-backstroke-t1-largest-mount" data-feature-view="top"></div>
   <div class="featured__foot">
-    <p class="featured__what">Backstroke, Goal Large, top view</p>
     <button class="pub-btn pub-btn--light" type="button" data-open-full="full-baselines"><span>See more results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
   </div>
 </div>
@@ -227,13 +226,12 @@
 <p class="body">We evaluate our method under various water flow scenarios across four flow directions: downstream (0°), diagonal (45°), crossflow (90°), and upstream (180°), and eight different speeds. We present representative video results for two example flow directions at two flow speeds.</p>
 
       <figure class="figure figure--narrow">
-        <img class="media" src="assets/images/task_flow.png?v=20261001h" alt="" width="3000" height="628" loading="lazy">
+        <img class="media" src="assets/images/task_flow.png?v=20261001i" alt="" width="3000" height="628" loading="lazy">
       </figure>
 
 <div class="featured">
   <div class="gallery featured__gallery" data-feature-mount="flow-front-crawl-t1-largest-mount" data-feature-view="side"></div>
   <div class="featured__foot">
-    <p class="featured__what">Front crawl, Goal Large, side view</p>
     <button class="pub-btn pub-btn--light" type="button" data-open-full="full-flow"><span>See more results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
   </div>
 </div>
@@ -363,13 +361,12 @@
 <p class="body">We evaluate our method on a larger pool than the training setup across various combinations. Below, we provide representative example videos in 5 m and 8 m pools with various trajectories.</p>
 
       <figure class="figure figure--narrow">
-        <img class="media" src="assets/images/task_pool.png?v=20261001h" alt="" width="3000" height="1244" loading="lazy">
+        <img class="media" src="assets/images/task_pool.png?v=20261001i" alt="" width="3000" height="1244" loading="lazy">
       </figure>
 
 <div class="featured">
   <div class="gallery featured__gallery" data-feature-mount="pool-butterfly-t4-largest-mount" data-feature-view="top"></div>
   <div class="featured__foot">
-    <p class="featured__what">Butterfly, Half-sine Large, 5 m and 8 m pools, top view</p>
     <button class="pub-btn pub-btn--light" type="button" data-open-full="full-pool"><span>See more results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
   </div>
 </div>
@@ -499,13 +496,12 @@
 <p class="body">We evaluate our method on fluids with different viscosities across various trajectories. Below, we provide example results for glycerol, which has a viscosity about 1,100 times that of water.</p>
 
       <figure class="figure figure--narrow">
-        <img class="media" src="assets/images/task_fluids.png?v=20261001h" alt="" width="3000" height="574" loading="lazy">
+        <img class="media" src="assets/images/task_fluids.png?v=20261001i" alt="" width="3000" height="574" loading="lazy">
       </figure>
 
 <div class="featured">
   <div class="gallery featured__gallery" data-feature-mount="fluid-breaststroke-t1-largest-mount" data-feature-view="top"></div>
   <div class="featured__foot">
-    <p class="featured__what">Breaststroke, Goal Large, still water and glycerol, top view</p>
     <button class="pub-btn pub-btn--light" type="button" data-open-full="full-fluids"><span>See more results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
   </div>
 </div>
@@ -635,13 +631,12 @@
 <p class="body">We also test our method against perturbations directed backward along the swimming path, as well as sideways and downward perturbations. Representative video results are presented below.</p>
 
       <figure class="figure figure--narrow">
-        <img class="media" src="assets/images/task_perturb.png?v=20261001h" alt="" width="3000" height="581" loading="lazy">
+        <img class="media" src="assets/images/task_perturb.png?v=20261001i" alt="" width="3000" height="581" loading="lazy">
       </figure>
 
 <div class="featured">
   <div class="gallery featured__gallery" data-feature-mount="perturb-front-crawl-t4-largest-mount" data-feature-view="top"></div>
   <div class="featured__foot">
-    <p class="featured__what">Front crawl, Half-sine Large, top view</p>
     <button class="pub-btn pub-btn--light" type="button" data-open-full="full-perturb"><span>See more results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
   </div>
 </div>
@@ -771,13 +766,12 @@
 <p class="body">Our method also generalizes to various morphological alterations. Specifically, we evaluated adding swim fins of varying lengths to the feet, as well as partial and full amputations of an arm or a leg. Representative video results are presented below.</p>
 
       <figure class="figure figure--narrow">
-        <img class="media" src="assets/images/task_bodies.png?v=20261001h" alt="" width="3000" height="685" loading="lazy">
+        <img class="media" src="assets/images/task_bodies.png?v=20261001i" alt="" width="3000" height="685" loading="lazy">
       </figure>
 
 <div class="featured">
   <div class="gallery featured__gallery" data-feature-mount="morph-front-crawl-mount" data-feature-view="top"></div>
   <div class="featured__foot">
-    <p class="featured__what">Front crawl, straight-ahead goal, top view</p>
     <button class="pub-btn pub-btn--light" type="button" data-open-full="full-morph"><span>See more results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
   </div>
 </div>
@@ -829,7 +823,6 @@
 <div class="featured">
   <div class="gallery featured__gallery" data-feature-mount="abl-front-crawl-t1-largest-mount" data-feature-view="side"></div>
   <div class="featured__foot">
-    <p class="featured__what">Front crawl, Goal Large, side view</p>
     <button class="pub-btn pub-btn--light" type="button" data-open-full="full-ablation"><span>See more results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
   </div>
 </div>
@@ -963,7 +956,7 @@
 </section>
 
 <footer class="pub-footer"><div class="pub-container"><p>SWIM · project page. Page style after <a href="https://proteusnerf.github.io/">ProteusNeRF</a> and <a href="https://nerfies.github.io/">Nerfies</a>.</p></div></footer>
-<script src="js/config.js?v=20261001h"></script>
-<script src="js/main.js?v=20261001h"></script>
+<script src="js/config.js?v=20261001i"></script>
+<script src="js/main.js?v=20261001i"></script>
 </body>
 </html>
