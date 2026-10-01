@@ -222,3 +222,26 @@ body, button, input, select, textarea, .pub-btn, .demo-switch__btn { font-family
   .vhead__caption { position: static; order: 4; transform: none; width: auto; text-align: left; padding: .7rem 16px 1rem; }
   .vhead__caption .vhead__cap { font-size: .85rem; }
 }
+
+/* header v3: the caption leaves the video for the white page below it (dark text, one line);
+   a "Scroll Down" cue bottom-right as on AMB3R's page */
+.vhead { height: calc(100vh - 4.2rem); height: calc(100svh - 4.2rem); }
+.vhead-caption { padding: 1.4rem 24px .4rem; text-align: center; color: var(--pub-ink); }
+.vhead-caption .vhead__cap { margin: 0; font-size: 1.02rem; line-height: 1.4; color: var(--pub-ink); text-shadow: none;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.vhead-caption .vhead__cap[hidden] { display: none; }
+.vhead__scroll {
+  position: absolute; z-index: 3; right: 20px; bottom: 14px; text-align: center;
+  color: #fff; text-decoration: none; font-size: .9rem; line-height: 1.3; text-shadow: 0 0 2px #000;
+  display: flex; flex-direction: column; align-items: center; gap: .15rem;
+}
+.vhead__scroll i { animation: vhead-nudge 1.6s infinite; }
+.vhead__scroll:hover { color: #fff; text-decoration: none; opacity: .85; }
+@keyframes vhead-nudge { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(5px); } }
+@media (prefers-reduced-motion: reduce) { .vhead__scroll i { animation: none; } }
+@media (max-width: 768px) {
+  .vhead { height: auto; }
+  .vhead__scroll { display: none; }
+  .vhead-caption { text-align: left; padding: .9rem 16px .2rem; }
+  .vhead-caption .vhead__cap { white-space: normal; font-size: .9rem; }
+}

@@ -363,8 +363,22 @@
     var clips = document.querySelectorAll(".vhead__btn[data-clip]");
     var sp = document.getElementById("vhead-speed");
     var SPEEDS = [1, 1.5, 2, 0.5], si = 0;
+    // 5 s of still water, then ONE automatic switch to the challenging conditions; a click
+    // before that cancels it, and nothing switches by itself afterwards.
+    var auto = null, autoDone = false;
+    function armAuto() {
+      if (autoDone || auto) return;
+      auto = setTimeout(function () {
+        auto = null; autoDone = true;
+        var c = document.querySelector('.vhead__btn[data-clip="cond"]');
+        if (c && c.getAttribute("aria-pressed") !== "true") c.click();
+      }, 5000);
+    }
+    v.addEventListener("playing", armAuto);
+    if (!v.paused) armAuto();
     Array.prototype.forEach.call(clips, function (btn) {
-      btn.addEventListener("click", function () {
+      btn.addEventListener("click", function (e) {
+        if (e.isTrusted) { autoDone = true; if (auto) { clearTimeout(auto); auto = null; } }
         var key = btn.dataset.clip, src = v.dataset[key];
         Array.prototype.forEach.call(clips, function (b) { b.setAttribute("aria-pressed", b === btn ? "true" : "false"); });
         Array.prototype.forEach.call(document.querySelectorAll(".vhead__cap"), function (c) { c.hidden = c.dataset.cap !== key; });
@@ -384,6 +398,13 @@
       si = (si + 1) % SPEEDS.length;
       v.playbackRate = SPEEDS[si];
       sp.textContent = SPEEDS[si].toFixed(1) + "x";
+    });
+    var down = document.getElementById("scroll-down");
+    if (down) down.addEventListener("click", function (e) {
+      var t = document.getElementById("top");
+      if (!t) return;
+      e.preventDefault();
+      t.scrollIntoView({ behavior: "smooth" });
     });
   })();
 
