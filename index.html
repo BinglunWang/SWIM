@@ -7,8 +7,8 @@
   <meta name="description" content="Reinforcement learning for physically-based character swimming, trained from a single reference motion in a coupled DFSPH and articulated-body simulator." />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
-  <link rel="stylesheet" href="css/style.css?v=20261001d" />
-  <link rel="stylesheet" href="css/pub.css?v=20261001d" />
+  <link rel="stylesheet" href="css/style.css?v=20261001e" />
+  <link rel="stylesheet" href="css/pub.css?v=20261001e" />
   <script>
     try {
       var v = localStorage.getItem("swim.view");
@@ -21,24 +21,21 @@
 <div class="vhead" id="demo">
   <video class="vhead__video" id="vhead-video" autoplay muted loop playsinline preload="auto"
          src="assets/videos/header-uclr-still-hd.mp4" poster="assets/videos/showcase-uclr-still.jpg"
-         data-still-hd="assets/videos/header-uclr-still-hd.mp4" data-still-sd="assets/videos/showcase-uclr-still.mp4"
-         data-cond-hd="assets/videos/header-uclr-cond-hd.mp4" data-cond-sd="assets/videos/showcase-uclr.mp4"
+         data-still="assets/videos/header-uclr-still-hd.mp4" data-cond="assets/videos/header-uclr-cond-hd.mp4"
          aria-label="The four swimming styles writing U-C-L-R"></video>
   <div class="vhead__info">
     <h1>SWIM</h1>
     <h2>Compact Environment Representation for<br>Reinforcement Learning Human Swimming</h2>
+  </div>
+  <div class="vhead__controls" role="group" aria-label="Video">
+    <button class="vhead__btn" type="button" data-clip="still" aria-pressed="true">Still water</button>
+    <button class="vhead__btn" type="button" data-clip="cond" aria-pressed="false">Challenging conditions</button>
+    <button class="vhead__btn vhead__btn--speed" id="vhead-speed" type="button" title="Playback speed">1.0x</button>
+  </div>
+  <div class="vhead__caption">
     <p class="vhead__cap" data-cap="still">Writing University College London Research (UCLR). Four challenging trajectory-following tasks, one per letter, all in still water: U (butterfly), C (front crawl), L (backstroke), and R (breaststroke).</p>
     <p class="vhead__cap" data-cap="cond" hidden>Writing University College London Research (UCLR). Four challenging trajectory-following tasks, one per letter, each under a challenging condition: U (butterfly, both lower legs removed), C (front crawl, a 0.51&nbsp;m/s wave along the pool), L (backstroke, in honey), and R (breaststroke, pushed with 0.5&nbsp;mg every 6&nbsp;s).</p>
   </div>
-  <div class="vhead__controls">
-    <select class="vhead__btn vhead__select" id="vhead-select" aria-label="Choose the video">
-      <option value="still">Still water</option>
-      <option value="cond">Challenging conditions</option>
-    </select>
-    <button class="vhead__btn" id="vhead-hd" type="button" aria-pressed="true" title="Full resolution, 50 fps">HD</button>
-    <button class="vhead__btn" id="vhead-speed" type="button" title="Playback speed">1.0x</button>
-  </div>
-  <a class="vhead__down" href="#top" aria-label="Scroll to the paper"><i class="fas fa-chevron-down" aria-hidden="true"></i></a>
 </div>
 
 <section class="pub-hero" id="top">
@@ -68,7 +65,7 @@
 <section class="pub-section">
   <div class="pub-container">
     <figure class="teaser">
-        <img class="media" src="assets/images/teaser.png?v=20261001d" alt="SWIM overview" width="3000" height="1073">
+        <img class="media" src="assets/images/teaser.png?v=20261001e" alt="SWIM overview" width="3000" height="1073">
         <figcaption class="cap">Trained on a single goal-reaching task in still water (left), SWIM learns one policy (middle) that generalizes to unseen tasks, flows, fluids, perturbations and body geometries (right).</figcaption>
       </figure>
   </div>
@@ -962,7 +959,7 @@
 </section>
 
 <footer class="pub-footer"><div class="pub-container"><p>SWIM · project page. Page style after <a href="https://proteusnerf.github.io/">ProteusNeRF</a> and <a href="https://nerfies.github.io/">Nerfies</a>.</p></div></footer>
-<script src="js/config.js?v=20261001d"></script>
-<script src="js/main.js?v=20261001d"></script>
+<script src="js/config.js?v=20261001e"></script>
+<script src="js/main.js?v=20261001e"></script>
 </body>
 </html>

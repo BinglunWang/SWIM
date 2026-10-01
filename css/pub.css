@@ -205,3 +205,20 @@ body, button, input, select, textarea, .pub-btn, .demo-switch__btn { font-family
   .vhead__controls { position: static; padding: .7rem 16px 1rem; }
   .vhead__down { display: none; }
 }
+
+/* header v2: HD only; the two clips and the speed top-right, the caption along the bottom */
+.vhead__controls { top: calc(2.2rem + env(safe-area-inset-top, 0px)); bottom: auto; left: auto; right: 3rem; justify-content: flex-end; }
+.vhead__btn { font-size: .85rem; }
+.vhead__btn--speed { min-width: 4.2em; }
+.vhead__caption {
+  position: absolute; z-index: 2; left: 50%; transform: translateX(-50%);
+  bottom: calc(1.4rem + env(safe-area-inset-bottom, 0px)); width: min(980px, calc(100% - 6rem));
+  text-align: center; text-shadow: 0 0 2px #000, 0 1px 6px rgba(0,0,0,.6);
+}
+.vhead__caption .vhead__cap { margin: 0; font-size: 1rem; }
+@media (max-width: 768px) {
+  .vhead__controls { position: static; order: 2; justify-content: flex-start; padding: .2rem 16px .6rem; }
+  .vhead__video { order: 3; }
+  .vhead__caption { position: static; order: 4; transform: none; width: auto; text-align: left; padding: .7rem 16px 1rem; }
+  .vhead__caption .vhead__cap { font-size: .85rem; }
+}
