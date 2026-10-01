@@ -1,0 +1,118 @@
+/* Project-page look after ProteusNeRF / Nerfies (Bulma "title is-1", "is-size-5" authors,
+   "button is-rounded is-dark"), written out by hand so Bulma's .tabs/.card/.media/.section
+   rules cannot collide with the gallery code in style.css. Light only, like the original. */
+
+:root {
+  --pub-ink: #363636;
+  --pub-text: #4a4a4a;
+  --pub-link: hsl(204, 86%, 53%);
+  --bg: #ffffff;
+  color-scheme: light;
+}
+
+html { scroll-padding-top: 16px; }
+
+body {
+  font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: var(--pub-text);
+  background: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a { color: var(--pub-link); }
+
+.pub-container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+/* ---- hero ------------------------------------------------------------------------------- */
+.pub-hero { padding: 3rem 0 1.5rem; text-align: center; }
+.publication-title {
+  font-family: 'Google Sans', 'Noto Sans', sans-serif;
+  font-size: 3rem; font-weight: 600; line-height: 1.125; color: var(--pub-ink);
+  margin: 0 0 1.5rem; text-wrap: balance;
+}
+.publication-authors {
+  font-family: 'Google Sans', 'Noto Sans', sans-serif;
+  font-size: 1.25rem; color: var(--pub-text); margin: 0 0 .25rem;
+}
+.publication-affil { font-size: 1.05rem; }
+.author-block { display: inline-block; margin: 0 .5em; }
+.publication-authors sup { font-size: .7em; }
+
+.publication-links { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; margin: 1.25rem 0 0; }
+
+.pub-btn {
+  display: inline-flex; align-items: center; gap: .5em;
+  height: 2.5em; padding: calc(.5em - 1px) 1.25em;
+  border: 1px solid transparent; border-radius: 9999px;
+  background: var(--pub-ink); color: #fff;
+  font: inherit; font-size: 1rem; line-height: 1.5; white-space: nowrap;
+  cursor: pointer; text-decoration: none;
+}
+.pub-btn:hover { background: #2f2f2f; color: #fff; text-decoration: none; }
+.pub-btn .fab, .pub-btn .fas { font-size: 1.05em; }
+.pub-btn--soon { cursor: default; }
+.pub-btn--soon:hover { background: var(--pub-ink); }
+.pub-btn--light { background: #fff; color: var(--pub-ink); border-color: #dbdbdb; }
+.pub-btn--light:hover { background: #f5f5f5; color: var(--pub-ink); border-color: #b5b5b5; }
+
+/* ---- sections ------------------------------------------------------------------------- */
+.pub-section { padding: 1.5rem 0; }
+.pub-title-3 {
+  font-family: 'Google Sans', 'Noto Sans', sans-serif;
+  font-size: 2rem; font-weight: 600; line-height: 1.125; color: var(--pub-ink);
+  text-align: center; margin: 1rem 0 1.5rem;
+}
+.pub-title-4, .pub-title-5 {
+  font-family: 'Google Sans', 'Noto Sans', sans-serif;
+  font-weight: 600; line-height: 1.25; color: var(--pub-ink);
+}
+.pub-title-4 { font-size: 1.5rem; margin: 3rem 0 1rem; }
+.pub-title-5 { font-size: 1.25rem; margin: 2.25rem 0 .75rem; }
+.secnum { color: #7a7a7a; margin-right: .3em; font-weight: 600; }
+
+.abstract { text-align: justify; }
+.abstract p { margin: 0 0 1rem; }
+.section__lead, .body { color: var(--pub-text); margin: 0 0 1rem; }
+
+.teaser, .figure { margin: 0 0 1rem; }
+.cap { font-size: .95rem; color: var(--pub-text); margin-top: .6rem; text-align: left; }
+.showcase .media, .teaser .media { width: 100%; height: auto; border-radius: 8px; }
+
+/* ---- featured example + "See all results" --------------------------------------------- */
+.featured { margin: .5rem 0 1rem; }
+.featured__foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem; margin-top: .75rem; }
+.featured__what { margin: 0; font-size: .92rem; color: #7a7a7a; }
+.featured__gallery--one { grid-template-columns: minmax(0, 640px); justify-content: center; }
+
+/* ---- the in-page "page": every result of one section ------------------------------------ */
+body.pub-noscroll { overflow: hidden; }
+.fullpage {
+  position: fixed; inset: 0; z-index: 1000;
+  background: #ffffff; overflow-y: auto; overscroll-behavior: contain;
+}
+.fullpage[hidden] { display: none; }
+.fullpage__bar {
+  position: sticky; top: 0; z-index: 2;
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: .75rem max(24px, calc((100% - 1080px) / 2));
+  padding-top: calc(.75rem + env(safe-area-inset-top, 0px));
+  background: rgba(255, 255, 255, .96); border-bottom: 1px solid #ededed;
+  backdrop-filter: blur(6px);
+}
+.fullpage__title {
+  font-family: 'Google Sans', 'Noto Sans', sans-serif;
+  font-size: 1.35rem; font-weight: 600; color: var(--pub-ink); min-width: 0;
+}
+.fullpage__sub { display: block; font-size: .85rem; font-weight: 400; color: #7a7a7a; }
+.fullpage__body { max-width: 1080px; margin: 0 auto; padding: 1.5rem 24px 3rem; }
+
+.pub-footer { padding: 2.5rem 0 3rem; text-align: center; font-size: .9rem; color: #7a7a7a; }
+.pub-footer p { margin: 0; }
+
+@media (max-width: 768px) {
+  .publication-title { font-size: 2rem; }
+  .publication-authors { font-size: 1.05rem; }
+  .pub-title-3 { font-size: 1.6rem; }
+  .fullpage__title { font-size: 1.1rem; }
+}

@@ -286,6 +286,75 @@
       mountGallery(mountId, cfg.galleries[mountId]);
     });
   }
+
+  // One featured gallery per section, in a FIXED camera view: its videos carry no
+  // data-src-top/side, so the top/side switch inside the "all results" panels never touches them.
+  function mountFeatured(el) {
+    var items = (cfg.galleries || {})[el.dataset.featureMount] || [];
+    var view = el.dataset.featureView === "side" ? "side" : "top";
+    var only = el.dataset.featureOnly;
+    if (only) items = items.filter(function (it) { return it.badge === only; });
+    var r = galleryRatio(items, view === "side" ? "sideAr" : "ar");
+    if (r) el.style.setProperty("--card-ar", r.toFixed(4));
+    if (items.length === 1) el.classList.add("featured__gallery--one");
+    items.forEach(function (item) {
+      var card = document.createElement("figure");
+      card.className = "card" + (item.method ? " card--m-" + item.method : "");
+      var wrap = document.createElement("div");
+      wrap.className = "card__media";
+      if (item.badge) {
+        var badge = document.createElement("span");
+        badge.className = "card__badge";
+        badge.textContent = item.badge;
+        wrap.appendChild(badge);
+      }
+      var v = document.createElement("video");
+      v.className = "media";
+      v.setAttribute("src", view === "side" ? item.sideSrc : item.src);
+      v.poster = (view === "side" ? item.sidePoster : item.poster) || "";
+      setupVideo(v, cardName(item));
+      v.addEventListener("mouseenter", function () { v.play().catch(function () {}); });
+      v.addEventListener("mouseleave", function () { v.pause(); });
+      v.addEventListener("click", function () { toggleVideo(v); });
+      wrap.appendChild(v);
+      card.appendChild(wrap);
+      el.appendChild(card);
+    });
+  }
+  Array.prototype.forEach.call(document.querySelectorAll("[data-feature-mount]"), mountFeatured);
+
+  // "See all results": a page inside the page. It covers the window, the page behind it
+  // stops scrolling, and it stays until the reader closes it (Close button or Esc).
+  var openFull = null, openedBy = null;
+  function closeFull() {
+    if (!openFull) return;
+    Array.prototype.forEach.call(openFull.querySelectorAll("video"), function (v) { v.pause(); });
+    openFull.hidden = true;
+    document.body.classList.remove("pub-noscroll");
+    openFull = null;
+    if (openedBy) { openedBy.focus(); openedBy = null; }
+  }
+  Array.prototype.forEach.call(document.querySelectorAll("[data-open-full]"), function (btn) {
+    btn.addEventListener("click", function () {
+      var panel = document.getElementById(btn.dataset.openFull);
+      if (!panel) return;
+      Array.prototype.forEach.call(document.querySelectorAll(".featured video"), function (v) { v.pause(); });
+      closeFull();
+      panel.hidden = false;
+      panel.scrollTop = 0;
+      document.body.classList.add("pub-noscroll");
+      openFull = panel; openedBy = btn;
+      var close = panel.querySelector("[data-close-full]");
+      if (close) close.focus();
+    });
+  });
+  Array.prototype.forEach.call(document.querySelectorAll("[data-close-full]"), function (b) {
+    b.addEventListener("click", closeFull);
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && openFull) closeFull();
+  });
+
   initViewToggles();
 
   (function pruneEmptyTabs() {
