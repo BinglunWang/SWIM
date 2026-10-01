@@ -148,3 +148,8 @@ body.pub-noscroll { overflow: hidden; }
 }
 body, button, input, select, textarea, .pub-btn, .demo-switch__btn { font-family: Arial, Helvetica, sans-serif; }
 :where(.card) { --m-color: var(--fig6-c); }   /* zero specificity: the method classes still win */
+
+/* Figure 6's LIGHT title-bar tints (the badge hue at its 0.86-0.90 lightness), not the dark badges:
+   watC D0D9E7, watL EDE9E0, watU D7E1E5. Title and abstract on a wider measure. */
+:root { --fig6-c: #D0D9E7; --fig6-l: #EDE9E0; --fig6-u: #D7E1E5; --accent: #59769F; }
+.pub-hero .pub-container, #abstract .pub-container { max-width: 1100px; }
