@@ -355,6 +355,31 @@
     if (e.key === "Escape" && openFull) closeFull();
   });
 
+  // UCLR demo: one click swaps still water and the challenging conditions, at the same moment of
+  // the episode and keeping play/pause, with the matching sentence of the caption.
+  (function initDemoSwitch() {
+    var btns = document.querySelectorAll(".demo-switch__btn");
+    Array.prototype.forEach.call(btns, function (btn) {
+      btn.addEventListener("click", function () {
+        var key = btn.dataset.demo;
+        var from = document.querySelector("[data-demo-video]:not([hidden])");
+        var to = document.querySelector('[data-demo-video="' + key + '"]');
+        if (!to || to === from) return;
+        var playing = from && !from.paused, t = from ? from.currentTime : 0;
+        if (from) { from.pause(); from.hidden = true; }
+        to.hidden = false;
+        try { if (t && to.duration) to.currentTime = Math.min(t, to.duration - 0.05); else if (t) to.currentTime = t; } catch (e) {}
+        if (playing) to.play().catch(function () {});
+        Array.prototype.forEach.call(btns, function (b) {
+          b.setAttribute("aria-pressed", b === btn ? "true" : "false");
+        });
+        Array.prototype.forEach.call(document.querySelectorAll("[data-demo-cap]"), function (c) {
+          c.hidden = c.dataset.demoCap !== key;
+        });
+      });
+    });
+  })();
+
   initViewToggles();
 
   (function pruneEmptyTabs() {

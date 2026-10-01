@@ -116,3 +116,20 @@ body.pub-noscroll { overflow: hidden; }
   .pub-title-3 { font-size: 1.6rem; }
   .fullpage__title { font-size: 1.1rem; }
 }
+
+/* two-line "coming soon" buttons: the label on top, "coming soon" under it, so they stay narrow */
+.pub-btn--soon { height: auto; min-height: 2.5em; padding: .3em 1.15em; }
+.pub-btn__label { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.15; }
+.pub-btn__label small { font-size: .68em; opacity: .75; letter-spacing: .02em; }
+.pub-btn .ai { font-size: 1.15em; }
+
+/* UCLR demo: still water | challenging conditions */
+.demo-switch { display: flex; justify-content: center; gap: .5rem; margin: 0 0 .9rem; flex-wrap: wrap; }
+.demo-switch__btn {
+  font: inherit; font-size: .95rem; cursor: pointer;
+  padding: .35em 1.1em; border-radius: 9999px;
+  border: 1px solid #dbdbdb; background: #fff; color: var(--pub-ink);
+}
+.demo-switch__btn:hover { border-color: #b5b5b5; }
+.demo-switch__btn[aria-pressed="true"] { background: var(--pub-ink); border-color: var(--pub-ink); color: #fff; }
+.showcase video[hidden] { display: none; }

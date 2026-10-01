@@ -7,6 +7,7 @@
   <meta name="description" content="Reinforcement learning for physically-based character swimming, trained from a single reference motion in a coupled DFSPH and articulated-body simulator." />
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/pub.css" />
   <script>
@@ -34,8 +35,10 @@
       <span class="author-block"><sup>*</sup>Corresponding author</span>
     </div>
     <div class="publication-links">
-      <span class="pub-btn pub-btn--soon" aria-disabled="true"><i class="fab fa-github" aria-hidden="true"></i><span>Code (coming soon)</span></span>
-      <span class="pub-btn pub-btn--soon" aria-disabled="true"><i class="fas fa-file-lines" aria-hidden="true"></i><span>Supplemental Material (coming soon)</span></span>
+      <span class="pub-btn pub-btn--soon" aria-disabled="true"><i class="fab fa-github" aria-hidden="true"></i><span class="pub-btn__label">Code<small>coming soon</small></span></span>
+      <!-- arXiv: replace this span with <a class="pub-btn" href="https://arxiv.org/abs/XXXX.XXXXX"><i class="ai ai-arxiv"></i><span>arXiv</span></a> -->
+      <span class="pub-btn pub-btn--soon" aria-disabled="true"><i class="ai ai-arxiv" aria-hidden="true"></i><span class="pub-btn__label">arXiv<small>coming soon</small></span></span>
+      <span class="pub-btn pub-btn--soon" aria-disabled="true"><i class="fas fa-file-lines" aria-hidden="true"></i><span class="pub-btn__label">Supp.<small>coming soon</small></span></span>
     </div>
   </div>
 </section>
@@ -52,11 +55,19 @@
 <section class="pub-section" id="demo">
   <div class="pub-container">
     <figure class="figure showcase">
-        <video class="media" src="assets/videos/showcase-uclr.mp4" poster="assets/videos/showcase-uclr.jpg"
-               width="1600" height="754" muted loop playsinline controls preload="metadata"
-               aria-label="The four swimming styles writing U-C-L-R"></video>
-        <figcaption class="cap"><b>Writing UCLR.</b> Four trajectory-following episodes, one per letter: U (butterfly), C (front crawl), L (backstroke), and R (breaststroke). U with both lower leg removed, C in a 0.51&nbsp;m/s wave along the pool, L in honey, and R in 0.5&nbsp;mg perturbation every 6&nbsp;s.</figcaption>
-      </figure>
+      <div class="demo-switch" role="group" aria-label="Conditions">
+        <button class="demo-switch__btn" type="button" data-demo="still" aria-pressed="true">Still water</button>
+        <button class="demo-switch__btn" type="button" data-demo="cond" aria-pressed="false">Challenging conditions</button>
+      </div>
+      <video class="media" data-demo-video="still" src="assets/videos/showcase-uclr-still.mp4" poster="assets/videos/showcase-uclr-still.jpg"
+             width="1600" height="754" muted loop playsinline controls preload="metadata"
+             aria-label="The four swimming styles writing U-C-L-R in still water"></video>
+      <video class="media" data-demo-video="cond" src="assets/videos/showcase-uclr.mp4" poster="assets/videos/showcase-uclr.jpg"
+             width="1600" height="754" muted loop playsinline controls preload="metadata" hidden
+             aria-label="The four swimming styles writing U-C-L-R under challenging conditions"></video>
+      <figcaption class="cap"><b>Writing &ldquo;UCLR&rdquo; for University College London (UCL) Research.</b> Four trajectory-following episodes, one per letter: U (butterfly), C (front crawl), L (backstroke), and R (breaststroke).
+        <span data-demo-cap="still">All four letters are swum in still water.</span><span data-demo-cap="cond" hidden>U with both lower legs removed, C in a 0.51&nbsp;m/s wave along the pool, L in honey, and R pushed with 0.5&nbsp;mg every 6&nbsp;s.</span></figcaption>
+    </figure>
   </div>
 </section>
 
