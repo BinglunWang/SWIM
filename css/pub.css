@@ -294,3 +294,17 @@ body, button, input, select, textarea, .pub-btn, .demo-switch__btn { font-family
 .vhead__btn--speed:hover { background: rgba(54, 54, 54, .4); }
 .publication-authors a { color: var(--pub-link); text-decoration: none; }
 .publication-authors a:hover { text-decoration: underline; }
+
+/* section tabs: hidden over the header video, slide in at the top once it has scrolled away */
+.nav.nav--float {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 900;
+  padding-top: calc(.6rem + env(safe-area-inset-top, 0px)); padding-bottom: .6rem;
+  background: rgba(255, 255, 255, .94); border-bottom: 1px solid #ededed;
+  transform: translateY(-110%); transition: transform .25s ease; visibility: hidden;
+}
+body.past-head .nav.nav--float { transform: none; visibility: visible; }
+.nav--float .nav__brand { color: var(--pub-ink); }
+.nav--float .nav__links a { font-family: Arial, Helvetica, sans-serif; }
+body.pub-noscroll .nav.nav--float { visibility: hidden; }
+html { scroll-padding-top: 64px; }
+@media (prefers-reduced-motion: reduce) { .nav.nav--float { transition: none; } }

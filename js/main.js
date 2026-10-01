@@ -561,6 +561,9 @@
       for (var i = 0; i < links.length; i++) {
         if (links[i].el.getBoundingClientRect().top <= OFFSET) found = links[i];
       }
+      // at the very bottom the last section can never reach OFFSET: give it the tab anyway
+      if (links.length && window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2 &&
+          links[links.length - 1].el.getBoundingClientRect().top < window.innerHeight) found = links[links.length - 1];
       if (found !== current) {
         if (current) current.a.removeAttribute("aria-current");
         if (found) found.a.setAttribute("aria-current", "true");
@@ -606,6 +609,29 @@
     place();
   }
   initScrollState();
+
+  // Section tabs appear once the header video has scrolled away; the phone menu button opens them.
+  (function initFloatNav() {
+    var nav = document.getElementById("nav"), head = document.querySelector(".vhead-wrap");
+    if (!nav) return;
+    function check() {
+      var past = head ? head.getBoundingClientRect().bottom <= 60 : window.scrollY > 200;
+      document.body.classList.toggle("past-head", past);
+    }
+    window.addEventListener("scroll", check, { passive: true });
+    window.addEventListener("resize", check);
+    check();
+    var btn = nav.querySelector(".nav__toggle"), list = nav.querySelector(".nav__links");
+    if (btn && list) {
+      btn.addEventListener("click", function () {
+        var open = list.classList.toggle("open");
+        btn.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+      list.addEventListener("click", function (e) {
+        if (e.target.closest("a")) { list.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); }
+      });
+    }
+  })();
 
   function revealHash() {
     var id = (location.hash || "").slice(1);
