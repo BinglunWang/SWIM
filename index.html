@@ -7,8 +7,8 @@
   <meta name="description" content="Reinforcement learning for physically-based character swimming, trained from a single reference motion in a coupled DFSPH and articulated-body simulator." />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
-  <link rel="stylesheet" href="css/style.css?v=20261001b" />
-  <link rel="stylesheet" href="css/pub.css?v=20261001b" />
+  <link rel="stylesheet" href="css/style.css?v=20261001d" />
+  <link rel="stylesheet" href="css/pub.css?v=20261001d" />
   <script>
     try {
       var v = localStorage.getItem("swim.view");
@@ -17,6 +17,29 @@
   </script>
 </head>
 <body>
+
+<div class="vhead" id="demo">
+  <video class="vhead__video" id="vhead-video" autoplay muted loop playsinline preload="auto"
+         src="assets/videos/header-uclr-still-hd.mp4" poster="assets/videos/showcase-uclr-still.jpg"
+         data-still-hd="assets/videos/header-uclr-still-hd.mp4" data-still-sd="assets/videos/showcase-uclr-still.mp4"
+         data-cond-hd="assets/videos/header-uclr-cond-hd.mp4" data-cond-sd="assets/videos/showcase-uclr.mp4"
+         aria-label="The four swimming styles writing U-C-L-R"></video>
+  <div class="vhead__info">
+    <h1>SWIM</h1>
+    <h2>Compact Environment Representation for<br>Reinforcement Learning Human Swimming</h2>
+    <p class="vhead__cap" data-cap="still">Writing University College London Research (UCLR). Four challenging trajectory-following tasks, one per letter, all in still water: U (butterfly), C (front crawl), L (backstroke), and R (breaststroke).</p>
+    <p class="vhead__cap" data-cap="cond" hidden>Writing University College London Research (UCLR). Four challenging trajectory-following tasks, one per letter, each under a challenging condition: U (butterfly, both lower legs removed), C (front crawl, a 0.51&nbsp;m/s wave along the pool), L (backstroke, in honey), and R (breaststroke, pushed with 0.5&nbsp;mg every 6&nbsp;s).</p>
+  </div>
+  <div class="vhead__controls">
+    <select class="vhead__btn vhead__select" id="vhead-select" aria-label="Choose the video">
+      <option value="still">Still water</option>
+      <option value="cond">Challenging conditions</option>
+    </select>
+    <button class="vhead__btn" id="vhead-hd" type="button" aria-pressed="true" title="Full resolution, 50 fps">HD</button>
+    <button class="vhead__btn" id="vhead-speed" type="button" title="Playback speed">1.0x</button>
+  </div>
+  <a class="vhead__down" href="#top" aria-label="Scroll to the paper"><i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+</div>
 
 <section class="pub-hero" id="top">
   <div class="pub-container">
@@ -45,30 +68,12 @@
 <section class="pub-section">
   <div class="pub-container">
     <figure class="teaser">
-        <img class="media" src="assets/images/teaser.png" alt="" width="1245" height="445">
+        <img class="media" src="assets/images/teaser.png?v=20261001d" alt="SWIM overview" width="3000" height="1073">
         <figcaption class="cap">Trained on a single goal-reaching task in still water (left), SWIM learns one policy (middle) that generalizes to unseen tasks, flows, fluids, perturbations and body geometries (right).</figcaption>
       </figure>
   </div>
 </section>
 
-<section class="pub-section" id="demo">
-  <div class="pub-container">
-    <figure class="figure showcase">
-      <div class="demo-switch" role="group" aria-label="Conditions">
-        <button class="demo-switch__btn" type="button" data-demo="still" aria-pressed="true">Still water</button>
-        <button class="demo-switch__btn" type="button" data-demo="cond" aria-pressed="false">Challenging conditions</button>
-      </div>
-      <video class="media" data-demo-video="still" src="assets/videos/showcase-uclr-still.mp4" poster="assets/videos/showcase-uclr-still.jpg"
-             width="1600" height="754" muted loop playsinline controls preload="metadata"
-             aria-label="The four swimming styles writing U-C-L-R in still water"></video>
-      <video class="media" data-demo-video="cond" src="assets/videos/showcase-uclr.mp4" poster="assets/videos/showcase-uclr.jpg"
-             width="1600" height="754" muted loop playsinline controls preload="metadata" hidden
-             aria-label="The four swimming styles writing U-C-L-R under challenging conditions"></video>
-      <figcaption class="cap"><b>Writing University College London Research (UCLR).</b>
-        <span data-demo-cap="still">Four challenging trajectory-following tasks, one per letter, all in still water: U (butterfly), C (front crawl), L (backstroke), and R (breaststroke).</span><span data-demo-cap="cond" hidden>Four challenging trajectory-following tasks, one per letter, each under a challenging condition: U (butterfly, both lower legs removed), C (front crawl, a 0.51&nbsp;m/s wave along the pool), L (backstroke, in honey), and R (breaststroke, pushed with 0.5&nbsp;mg every 6&nbsp;s).</span></figcaption>
-    </figure>
-  </div>
-</section>
 
 <section class="pub-section" id="abstract">
   <div class="pub-container">
@@ -82,25 +87,14 @@
 <section class="pub-section" id="experiments">
   <div class="pub-container">
     <h2 class="pub-title-3">Results</h2>
-    <p class="hint"><span class="hint__warn" aria-hidden="true">⚠</span><span>Videos play while you hover over them. On a touch screen, tap a video to play it. Each section shows one example; <b>See all results</b> opens every stroke, task and camera view for that section.</span></p>
+    <p class="hint"><span class="hint__warn" aria-hidden="true">⚠</span><span>Videos play while you hover over them. On a touch screen, tap a video to play it. Each section shows one example; <b>See more results</b> opens every stroke, task and camera view for that section.</span></p>
 
 <h3 class="pub-title-4" id="exp-baselines">1 Baseline Comparison</h3>
-<p class="section__lead">Below is a visual comparison of SWIM with three baseline imitation methods (AMP, DeepMimic, ADD), three surrogate models for simulation (CFC particle PINN, OceanSim, MuJoCo), and one high-res simulator (High-resolution SPH). We provide results across four swimming styles and 8 control trajectories. For each motion, we provide both top and side views.</p>
-<ul class="legend" aria-label="Method colours">
-        <li><i class="legend__sw legend__sw--ours" style="--m-color: var(--m-ours)"></i>SWIM (Ours)</li>
-        <li><i class="legend__sw legend__sw--amp" style="--m-color: var(--m-amp)"></i>AMP</li>
-        <li><i class="legend__sw legend__sw--deepmimic" style="--m-color: var(--m-deepmimic)"></i>DeepMimic</li>
-        <li><i class="legend__sw legend__sw--add" style="--m-color: var(--m-add)"></i>ADD</li>
-        <li><i class="legend__sw legend__sw--pinn" style="--m-color: var(--m-pinn)"></i>CFC particle PINN</li>
-        <li><i class="legend__sw legend__sw--uwsim" style="--m-color: var(--m-uwsim)"></i>OceanSim</li>
-        <li><i class="legend__sw legend__sw--hisph" style="--m-color: var(--m-hisph)"></i>High-resolution SPH</li>
-        <li><i class="legend__sw legend__sw--mjfluid" style="--m-color: var(--m-mjfluid)"></i>MuJoCo surrogate</li>
-      </ul>
 <div class="featured">
   <div class="gallery featured__gallery" data-feature-mount="cmp-backstroke-t1-largest-mount" data-feature-view="top"></div>
   <div class="featured__foot">
     <p class="featured__what">Backstroke, Goal Large, top view</p>
-    <button class="pub-btn pub-btn--light" type="button" data-open-full="full-baselines"><span>See all results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
+    <button class="pub-btn pub-btn--light" type="button" data-open-full="full-baselines"><span>See more results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
   </div>
 </div>
 <div class="fullpage" id="full-baselines" role="dialog" aria-modal="true" aria-label="Baseline Comparison: all results" hidden>
@@ -109,16 +103,6 @@
     <button class="pub-btn fullpage__close" type="button" data-close-full><i class="fas fa-xmark" aria-hidden="true"></i><span>Close</span></button>
   </div>
   <div class="fullpage__body">
-<ul class="legend" aria-label="Method colours">
-        <li><i class="legend__sw legend__sw--ours" style="--m-color: var(--m-ours)"></i>SWIM (Ours)</li>
-        <li><i class="legend__sw legend__sw--amp" style="--m-color: var(--m-amp)"></i>AMP</li>
-        <li><i class="legend__sw legend__sw--deepmimic" style="--m-color: var(--m-deepmimic)"></i>DeepMimic</li>
-        <li><i class="legend__sw legend__sw--add" style="--m-color: var(--m-add)"></i>ADD</li>
-        <li><i class="legend__sw legend__sw--pinn" style="--m-color: var(--m-pinn)"></i>CFC particle PINN</li>
-        <li><i class="legend__sw legend__sw--uwsim" style="--m-color: var(--m-uwsim)"></i>OceanSim</li>
-        <li><i class="legend__sw legend__sw--hisph" style="--m-color: var(--m-hisph)"></i>High-resolution SPH</li>
-        <li><i class="legend__sw legend__sw--mjfluid" style="--m-color: var(--m-mjfluid)"></i>MuJoCo surrogate</li>
-      </ul>
       <p class="hint"><span class="hint__warn" aria-hidden="true">⚠</span><span>Videos play while you hover over them. On a touch screen, tap a video to play it.</span></p>
       <div class="view-toggle" role="group" aria-label="Camera view" hidden>
         <button class="view-toggle__btn" type="button" data-view="top" aria-pressed="true">Top view</button>
@@ -249,7 +233,7 @@
   <div class="gallery featured__gallery" data-feature-mount="flow-front-crawl-t1-largest-mount" data-feature-view="side"></div>
   <div class="featured__foot">
     <p class="featured__what">Front crawl, Goal Large, side view</p>
-    <button class="pub-btn pub-btn--light" type="button" data-open-full="full-flow"><span>See all results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
+    <button class="pub-btn pub-btn--light" type="button" data-open-full="full-flow"><span>See more results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
   </div>
 </div>
 <div class="fullpage" id="full-flow" role="dialog" aria-modal="true" aria-label="Moving Water: all results" hidden>
@@ -382,10 +366,10 @@
       </figure>
 
 <div class="featured">
-  <div class="gallery featured__gallery" data-feature-mount="pool-butterfly-t4-largest-mount" data-feature-view="top" data-feature-only="8 m pool"></div>
+  <div class="gallery featured__gallery" data-feature-mount="pool-butterfly-t4-largest-mount" data-feature-view="top"></div>
   <div class="featured__foot">
-    <p class="featured__what">Butterfly, Half-sine Large, 8 m pool, top view</p>
-    <button class="pub-btn pub-btn--light" type="button" data-open-full="full-pool"><span>See all results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
+    <p class="featured__what">Butterfly, Half-sine Large, 5 m and 8 m pools, top view</p>
+    <button class="pub-btn pub-btn--light" type="button" data-open-full="full-pool"><span>See more results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
   </div>
 </div>
 <div class="fullpage" id="full-pool" role="dialog" aria-modal="true" aria-label="Larger Pool: all results" hidden>
@@ -518,10 +502,10 @@
       </figure>
 
 <div class="featured">
-  <div class="gallery featured__gallery" data-feature-mount="fluid-breaststroke-t1-largest-mount" data-feature-view="top" data-feature-only="Glycerol"></div>
+  <div class="gallery featured__gallery" data-feature-mount="fluid-breaststroke-t1-largest-mount" data-feature-view="top"></div>
   <div class="featured__foot">
-    <p class="featured__what">Breaststroke in glycerol, Goal Large, top view</p>
-    <button class="pub-btn pub-btn--light" type="button" data-open-full="full-fluids"><span>See all results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
+    <p class="featured__what">Breaststroke, Goal Large, still water and glycerol, top view</p>
+    <button class="pub-btn pub-btn--light" type="button" data-open-full="full-fluids"><span>See more results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
   </div>
 </div>
 <div class="fullpage" id="full-fluids" role="dialog" aria-modal="true" aria-label="Unseen Fluid: all results" hidden>
@@ -657,7 +641,7 @@
   <div class="gallery featured__gallery" data-feature-mount="perturb-front-crawl-t4-largest-mount" data-feature-view="top"></div>
   <div class="featured__foot">
     <p class="featured__what">Front crawl, Half-sine Large, top view</p>
-    <button class="pub-btn pub-btn--light" type="button" data-open-full="full-perturb"><span>See all results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
+    <button class="pub-btn pub-btn--light" type="button" data-open-full="full-perturb"><span>See more results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
   </div>
 </div>
 <div class="fullpage" id="full-perturb" role="dialog" aria-modal="true" aria-label="External Perturbations: all results" hidden>
@@ -793,7 +777,7 @@
   <div class="gallery featured__gallery" data-feature-mount="morph-front-crawl-mount" data-feature-view="top"></div>
   <div class="featured__foot">
     <p class="featured__what">Front crawl, straight-ahead goal, top view</p>
-    <button class="pub-btn pub-btn--light" type="button" data-open-full="full-morph"><span>See all results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
+    <button class="pub-btn pub-btn--light" type="button" data-open-full="full-morph"><span>See more results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
   </div>
 </div>
 <div class="fullpage" id="full-morph" role="dialog" aria-modal="true" aria-label="Morphological Alterations: all results" hidden>
@@ -845,7 +829,7 @@
   <div class="gallery featured__gallery" data-feature-mount="abl-front-crawl-t1-largest-mount" data-feature-view="side"></div>
   <div class="featured__foot">
     <p class="featured__what">Front crawl, Goal Large, side view</p>
-    <button class="pub-btn pub-btn--light" type="button" data-open-full="full-ablation"><span>See all results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
+    <button class="pub-btn pub-btn--light" type="button" data-open-full="full-ablation"><span>See more results</span><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
   </div>
 </div>
 <div class="fullpage" id="full-ablation" role="dialog" aria-modal="true" aria-label="Ablation: all results" hidden>
@@ -978,7 +962,7 @@
 </section>
 
 <footer class="pub-footer"><div class="pub-container"><p>SWIM · project page. Page style after <a href="https://proteusnerf.github.io/">ProteusNeRF</a> and <a href="https://nerfies.github.io/">Nerfies</a>.</p></div></footer>
-<script src="js/config.js?v=20261001b"></script>
-<script src="js/main.js?v=20261001b"></script>
+<script src="js/config.js?v=20261001d"></script>
+<script src="js/main.js?v=20261001d"></script>
 </body>
 </html>

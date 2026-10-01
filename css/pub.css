@@ -161,3 +161,47 @@ body, button, input, select, textarea, .pub-btn, .demo-switch__btn { font-family
 .pub-hero .pub-container, #abstract .pub-container { max-width: none; padding: 0 3rem; }
 #abstract .pub-container { max-width: max(960px, 75vw); padding: 0 24px; }
 @media (max-width: 768px) { .pub-hero .pub-container { padding: 0 16px; } }
+
+/* 2026-10-01: a bit darker again, a quarter of the way from Figure 6's tint to white */
+:root { --fig6-c: #DCE2ED; --fig6-l: #F2EEE8; --fig6-u: #E1E8EC; }
+
+/* ---- full-screen video header (after hengyiwang.github.io/projects/amber) ----------------- */
+.vhead { position: relative; height: 100vh; height: 100svh; min-height: 420px; background: #000; overflow: hidden; color: #fff; }
+.vhead__video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #000; }
+.vhead__info {
+  position: absolute; z-index: 2; top: calc(2.2rem + env(safe-area-inset-top, 0px)); left: 3rem; right: 3rem;
+  max-width: 46rem; text-shadow: 0 0 2px #000, 0 1px 6px rgba(0,0,0,.6); pointer-events: none;
+}
+.vhead__info h1 { margin: 0; font-size: 3rem; font-weight: 700; letter-spacing: .02em; line-height: 1.1; }
+.vhead__info h2 { margin: .35rem 0 0; font-size: 1.35rem; font-weight: 400; line-height: 1.3; }
+.vhead__cap { margin: .9rem 0 0; font-size: .95rem; line-height: 1.45; color: rgba(255,255,255,.9); }
+.vhead__cap[hidden] { display: none; }
+.vhead__controls {
+  position: absolute; z-index: 3; left: 20px; bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+  display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+}
+.vhead__btn {
+  font: inherit; font-size: .8rem; font-weight: 700; color: #fff; background: #363636;
+  border: 1px solid transparent; border-radius: 9999px; height: 2.25em; padding: 0 1em; cursor: pointer;
+}
+.vhead__btn:hover { background: #2f2f2f; }
+.vhead__btn[aria-pressed="false"] { background: rgba(54,54,54,.55); color: rgba(255,255,255,.75); }
+.vhead__select { appearance: none; -webkit-appearance: none; padding-right: 2.2em;
+  background-image: linear-gradient(45deg, transparent 50%, #fff 50%), linear-gradient(135deg, #fff 50%, transparent 50%);
+  background-position: calc(100% - 15px) 52%, calc(100% - 10px) 52%; background-size: 5px 5px, 5px 5px; background-repeat: no-repeat; }
+.vhead__select option { color: #000; background: #fff; }
+.vhead__down {
+  position: absolute; z-index: 3; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%);
+  color: rgba(255,255,255,.85); font-size: 1.4rem; animation: vhead-bounce 1.6s infinite;
+}
+.vhead__down:hover { color: #fff; }
+@keyframes vhead-bounce { 0%, 100% { transform: translate(-50%, 0); } 50% { transform: translate(-50%, 6px); } }
+@media (prefers-reduced-motion: reduce) { .vhead__down { animation: none; } }
+@media (max-width: 768px) {
+  .vhead { height: auto; min-height: 0; display: flex; flex-direction: column; }
+  .vhead__info { position: static; max-width: none; padding: 1.2rem 16px .7rem; }
+  .vhead__info h1 { font-size: 1.8rem; } .vhead__info h2 { font-size: 1rem; } .vhead__cap { font-size: .85rem; }
+  .vhead__video { position: static; width: 100%; height: auto; aspect-ratio: 1600 / 754; }
+  .vhead__controls { position: static; padding: .7rem 16px 1rem; }
+  .vhead__down { display: none; }
+}

@@ -355,6 +355,48 @@
     if (e.key === "Escape" && openFull) closeFull();
   });
 
+  // Full-screen header video (after AMB3R's page): choose the clip, HD (full resolution, 50 fps)
+  // or SD, and the speed. Every swap keeps the moment of the episode and the speed.
+  (function initHeaderVideo() {
+    var v = document.getElementById("vhead-video");
+    if (!v) return;
+    var sel = document.getElementById("vhead-select");
+    var hd = document.getElementById("vhead-hd");
+    var sp = document.getElementById("vhead-speed");
+    var SPEEDS = [1, 1.5, 2, 0.5], si = 0, clip = "still", useHd = true;
+    function load() {
+      var src = v.dataset[clip + (useHd ? "Hd" : "Sd")];
+      if (v.getAttribute("src") === src) return;
+      var t = v.currentTime || 0, rate = SPEEDS[si];
+      v.setAttribute("src", src);
+      v.addEventListener("loadedmetadata", function once() {
+        v.removeEventListener("loadedmetadata", once);
+        try { v.currentTime = Math.min(t, (v.duration || t + 1) - 0.05); } catch (e) {}
+        v.playbackRate = rate;
+        v.play().catch(function () {});
+      });
+      v.load();
+    }
+    if (sel) sel.addEventListener("change", function () {
+      clip = sel.value;
+      Array.prototype.forEach.call(document.querySelectorAll(".vhead__cap"), function (c) {
+        c.hidden = c.dataset.cap !== clip;
+      });
+      load();
+    });
+    if (hd) hd.addEventListener("click", function () {
+      useHd = !useHd;
+      hd.setAttribute("aria-pressed", useHd ? "true" : "false");
+      hd.textContent = useHd ? "HD" : "SD";
+      load();
+    });
+    if (sp) sp.addEventListener("click", function () {
+      si = (si + 1) % SPEEDS.length;
+      v.playbackRate = SPEEDS[si];
+      sp.textContent = SPEEDS[si].toFixed(1) + "x";
+    });
+  })();
+
   // UCLR demo: one click swaps still water and the challenging conditions, at the same moment of
   // the episode and keeping play/pause, with the matching sentence of the caption.
   (function initDemoSwitch() {
