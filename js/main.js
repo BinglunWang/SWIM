@@ -12,13 +12,51 @@
     return VIEWS[v] ? v : "top";
   }
 
+  // "See more" clips only: HD swaps a clip for its full-resolution master on Hugging Face
+  // (cfg.hdBase); off by default, remembered per reader. A clip with no HD flag is already
+  // full resolution on the page. If Hugging Face fails, the clip falls back to the page file.
+  function hdOn() { return document.documentElement.getAttribute("data-hd") === "on"; }
+
   function applyView(v, view) {
-    var src = v.dataset["src" + (view === "side" ? "Side" : "Top")] || "";
-    var poster = v.dataset["poster" + (view === "side" ? "Side" : "Top")] || "";
+    var key = view === "side" ? "Side" : "Top";
+    var src = (hdOn() && v.dataset["src" + key + "Hd"]) || v.dataset["src" + key] || "";
+    var poster = v.dataset["poster" + key] || "";
     if (v.src && v.getAttribute("src") === src) return;
 
+    var playing = !v.paused, t = v.currentTime || 0;
     if (poster) v.poster = poster;
     v.setAttribute("src", src);
+    if (playing) {
+      // preload="none": nothing loads until play(), so play first and seek once it is known
+      v.addEventListener("loadedmetadata", function once() {
+        v.removeEventListener("loadedmetadata", once);
+        try { v.currentTime = Math.min(t, (v.duration || t + 1) - 0.05); } catch (e) {}
+      });
+      v.play().catch(function () {});
+    }
+  }
+
+  function setHd(on) {
+    document.documentElement.setAttribute("data-hd", on ? "on" : "off");
+    try { localStorage.setItem("swim.hd", on ? "on" : "off"); } catch (e) {}
+    Array.prototype.forEach.call(document.querySelectorAll(".hd-toggle__btn"), function (b) {
+      b.setAttribute("aria-pressed", (b.dataset.hd === "on") === on ? "true" : "false");
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("video.media"), function (v) {
+      if (v.dataset.srcTopHd || v.dataset.srcSideHd) applyView(v, currentView());
+    });
+  }
+
+  function initHdToggles() {
+    var saved = null;
+    try { saved = localStorage.getItem("swim.hd"); } catch (e) {}
+    Array.prototype.forEach.call(document.querySelectorAll(".hd-toggle"), function (g) {
+      g.hidden = false;
+      Array.prototype.forEach.call(g.querySelectorAll(".hd-toggle__btn"), function (b) {
+        b.addEventListener("click", function () { setHd(b.dataset.hd === "on"); });
+      });
+    });
+    setHd(saved === "on");
   }
 
   function setView(view) {
@@ -90,6 +128,18 @@
 
       v.dataset.srcTop = item.src || "";
       v.dataset.srcSide = item.sideSrc || "";
+      var base = cfg.hdBase || "";
+      if (base && item.hdTop && item.src) v.dataset.srcTopHd = base + item.src.split("/").pop();
+      if (base && item.hdSide && item.sideSrc) v.dataset.srcSideHd = base + item.sideSrc.split("/").pop();
+      if (v.dataset.srcTopHd || v.dataset.srcSideHd) {
+        v.addEventListener("error", function () {
+          var cur = v.getAttribute("src") || "";
+          if (cur !== v.dataset.srcTopHd && cur !== v.dataset.srcSideHd) return;
+          delete v.dataset.srcTopHd; delete v.dataset.srcSideHd;
+          applyView(v, currentView());
+          if (v.matches(":hover")) v.play().catch(function () {});
+        });
+      }
       v.dataset.posterTop = item.poster || "";
       v.dataset.posterSide = item.sidePoster || "";
       applyView(v, currentView());
@@ -435,6 +485,7 @@
   })();
 
   initViewToggles();
+  initHdToggles();
 
   (function pruneEmptyTabs() {
     var groups = Array.prototype.slice.call(document.querySelectorAll(".tabs")).reverse();

@@ -18,7 +18,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1
       },
       {
         "badge": "AMP",
@@ -36,7 +37,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -54,7 +57,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -72,7 +77,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           288
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -90,7 +97,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -108,7 +117,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           300
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -126,7 +137,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -144,7 +157,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           328
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-front-crawl-t1-largest-mount": [
@@ -164,7 +179,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -182,7 +198,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -200,7 +217,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1
       }
     ],
     "flow-front-crawl-t1-largest-mount": [
@@ -220,7 +238,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -238,7 +257,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -256,7 +276,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -274,7 +295,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           296
-        ]
+        ],
+        "hdTop": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -292,7 +314,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           310
-        ]
+        ],
+        "hdTop": 1
       }
     ],
     "pool-front-crawl-t1-largest-mount": [
@@ -312,7 +335,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1
       },
       {
         "badge": "8 m pool",
@@ -330,7 +354,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           478
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-front-crawl-t1-largest-mount": [
@@ -350,7 +376,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1
       },
       {
         "badge": "Glycerol",
@@ -368,7 +395,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-front-crawl-t1-largest-mount": [
@@ -388,7 +417,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1
       },
       {
         "badge": "Push backward",
@@ -406,7 +436,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -424,7 +456,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -442,7 +476,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-front-crawl-t1-middle-mount": [
@@ -462,7 +498,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -480,7 +518,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -498,7 +538,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -516,7 +558,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -534,7 +578,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -552,7 +598,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -570,7 +618,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -588,7 +638,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           314
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-front-crawl-t1-middle-mount": [
@@ -608,7 +660,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -626,7 +680,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -644,7 +700,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-front-crawl-t1-middle-mount": [
@@ -664,7 +722,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -682,7 +742,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -700,7 +762,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -718,7 +782,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -736,7 +802,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           302
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-front-crawl-t1-middle-mount": [
@@ -756,7 +824,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -774,7 +844,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           424
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-front-crawl-t1-middle-mount": [
@@ -794,7 +866,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -812,7 +886,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-front-crawl-t1-middle-mount": [
@@ -832,7 +908,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -850,7 +928,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -868,7 +948,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -886,7 +968,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-front-crawl-t2-largest-mount": [
@@ -906,7 +990,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -924,7 +1010,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -942,7 +1030,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -960,7 +1050,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -978,7 +1070,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -996,7 +1090,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -1014,7 +1110,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -1032,7 +1130,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           310
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-front-crawl-t2-largest-mount": [
@@ -1052,7 +1152,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -1070,7 +1172,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -1088,7 +1192,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-front-crawl-t2-largest-mount": [
@@ -1108,7 +1214,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -1126,7 +1234,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -1144,7 +1254,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -1162,7 +1274,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -1180,7 +1294,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-front-crawl-t2-largest-mount": [
@@ -1200,7 +1316,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -1218,7 +1336,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           424
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-front-crawl-t2-largest-mount": [
@@ -1238,7 +1358,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -1256,7 +1378,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-front-crawl-t2-largest-mount": [
@@ -1276,7 +1400,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -1294,7 +1420,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -1312,7 +1440,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -1330,7 +1460,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-front-crawl-t2-middle-mount": [
@@ -1350,7 +1482,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -1368,7 +1502,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -1386,7 +1522,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -1404,7 +1542,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -1422,7 +1562,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -1440,7 +1582,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -1458,7 +1602,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -1476,7 +1622,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           316
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-front-crawl-t2-middle-mount": [
@@ -1496,7 +1644,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -1514,7 +1664,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -1532,7 +1684,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-front-crawl-t2-middle-mount": [
@@ -1552,7 +1706,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -1570,7 +1726,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -1588,7 +1746,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -1606,7 +1766,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -1624,7 +1786,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-front-crawl-t2-middle-mount": [
@@ -1644,7 +1808,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -1662,7 +1828,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           426
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-front-crawl-t2-middle-mount": [
@@ -1682,7 +1850,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -1700,7 +1870,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-front-crawl-t2-middle-mount": [
@@ -1720,7 +1892,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -1738,7 +1912,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -1756,7 +1932,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -1774,7 +1952,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-front-crawl-t3-largest-mount": [
@@ -1794,7 +1974,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -1812,7 +1994,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -1830,7 +2014,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -1848,7 +2034,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -1866,7 +2054,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -1884,7 +2074,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -1902,7 +2094,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -1920,7 +2114,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           302
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-front-crawl-t3-largest-mount": [
@@ -1940,7 +2136,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -1958,7 +2156,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -1976,7 +2176,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-front-crawl-t3-largest-mount": [
@@ -1996,7 +2198,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -2014,7 +2218,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -2032,7 +2238,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -2050,7 +2258,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -2068,7 +2278,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-front-crawl-t3-largest-mount": [
@@ -2088,7 +2300,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -2106,7 +2320,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           426
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-front-crawl-t3-largest-mount": [
@@ -2126,7 +2342,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -2144,7 +2362,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-front-crawl-t3-largest-mount": [
@@ -2164,7 +2384,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -2182,7 +2404,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -2200,7 +2424,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -2218,7 +2444,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-front-crawl-t3-middle-mount": [
@@ -2238,7 +2466,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -2256,7 +2486,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -2274,7 +2506,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -2292,7 +2526,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -2310,7 +2546,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -2328,7 +2566,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -2346,7 +2586,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -2364,7 +2606,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           314
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-front-crawl-t3-middle-mount": [
@@ -2384,7 +2628,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -2402,7 +2648,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -2420,7 +2668,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-front-crawl-t3-middle-mount": [
@@ -2440,7 +2690,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -2458,7 +2710,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -2476,7 +2730,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -2494,7 +2750,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -2512,7 +2770,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-front-crawl-t3-middle-mount": [
@@ -2532,7 +2792,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -2550,7 +2812,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           426
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-front-crawl-t3-middle-mount": [
@@ -2570,7 +2834,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -2588,7 +2854,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-front-crawl-t3-middle-mount": [
@@ -2608,7 +2876,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -2626,7 +2896,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -2644,7 +2916,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -2662,7 +2936,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-front-crawl-t4-largest-mount": [
@@ -2682,7 +2958,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -2700,7 +2977,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -2718,7 +2997,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -2736,7 +3017,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -2754,7 +3037,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -2772,7 +3057,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -2790,7 +3077,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -2808,7 +3097,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           306
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-front-crawl-t4-largest-mount": [
@@ -2828,7 +3119,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -2846,7 +3138,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -2864,7 +3158,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-front-crawl-t4-largest-mount": [
@@ -2884,7 +3180,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -2902,7 +3199,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -2920,7 +3219,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -2938,7 +3239,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -2956,7 +3259,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-front-crawl-t4-largest-mount": [
@@ -2976,7 +3281,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -2994,7 +3300,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           424
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-front-crawl-t4-largest-mount": [
@@ -3014,7 +3322,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -3032,7 +3341,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-front-crawl-t4-largest-mount": [
@@ -3052,7 +3363,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -3070,7 +3382,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -3088,7 +3401,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -3106,7 +3420,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       }
     ],
     "cmp-front-crawl-t4-middle-mount": [
@@ -3126,7 +3441,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -3144,7 +3461,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -3162,7 +3481,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -3180,7 +3501,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -3198,7 +3521,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -3216,7 +3541,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -3234,7 +3561,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -3252,7 +3581,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           306
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-front-crawl-t4-middle-mount": [
@@ -3272,7 +3603,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -3290,7 +3623,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -3308,7 +3643,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-front-crawl-t4-middle-mount": [
@@ -3328,7 +3665,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -3346,7 +3685,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -3364,7 +3705,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -3382,7 +3725,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -3400,7 +3745,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-front-crawl-t4-middle-mount": [
@@ -3420,7 +3767,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -3438,7 +3787,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           426
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-front-crawl-t4-middle-mount": [
@@ -3458,7 +3809,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -3476,7 +3829,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-front-crawl-t4-middle-mount": [
@@ -3496,7 +3851,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -3514,7 +3871,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -3532,7 +3891,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -3550,7 +3911,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "morph-front-crawl-mount": [
@@ -3570,7 +3933,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Missing forearm",
@@ -3588,7 +3952,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Missing leg",
@@ -3606,7 +3971,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       }
     ],
     "cmp-breaststroke-t1-largest-mount": [
@@ -3626,7 +3992,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -3644,7 +4011,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -3662,7 +4031,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -3680,7 +4051,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -3698,7 +4071,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -3716,7 +4091,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           320
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -3734,7 +4111,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -3752,7 +4131,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-breaststroke-t1-largest-mount": [
@@ -3772,7 +4153,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -3790,7 +4172,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -3808,7 +4192,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           288
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-breaststroke-t1-largest-mount": [
@@ -3828,7 +4214,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -3846,7 +4233,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -3864,7 +4253,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -3882,7 +4273,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -3900,7 +4293,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           300
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-breaststroke-t1-largest-mount": [
@@ -3920,7 +4315,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -3938,7 +4334,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           474
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-breaststroke-t1-largest-mount": [
@@ -3958,7 +4356,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -3976,7 +4375,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           288
-        ]
+        ],
+        "hdSide": 1
       }
     ],
     "perturb-breaststroke-t1-largest-mount": [
@@ -3996,7 +4396,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -4014,7 +4415,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -4032,7 +4435,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -4050,7 +4455,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           288
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-breaststroke-t1-middle-mount": [
@@ -4070,7 +4477,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -4088,7 +4497,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -4106,7 +4517,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -4124,7 +4537,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -4142,7 +4557,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -4160,7 +4577,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -4178,7 +4597,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -4196,7 +4617,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-breaststroke-t1-middle-mount": [
@@ -4216,7 +4639,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -4234,7 +4659,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -4252,7 +4679,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-breaststroke-t1-middle-mount": [
@@ -4272,7 +4701,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -4290,7 +4721,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -4308,7 +4741,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -4326,7 +4761,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -4344,7 +4781,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           300
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-breaststroke-t1-middle-mount": [
@@ -4364,7 +4803,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -4382,7 +4823,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           424
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-breaststroke-t1-middle-mount": [
@@ -4402,7 +4845,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -4420,7 +4865,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-breaststroke-t1-middle-mount": [
@@ -4440,7 +4887,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -4458,7 +4907,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -4476,7 +4927,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -4494,7 +4947,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-breaststroke-t2-largest-mount": [
@@ -4514,7 +4969,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -4532,7 +4989,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -4550,7 +5009,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -4568,7 +5029,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -4586,7 +5049,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -4604,7 +5069,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -4622,7 +5089,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -4640,7 +5109,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-breaststroke-t2-largest-mount": [
@@ -4660,7 +5131,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -4678,7 +5151,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -4696,7 +5171,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-breaststroke-t2-largest-mount": [
@@ -4716,7 +5193,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -4734,7 +5213,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -4752,7 +5233,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -4770,7 +5253,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -4788,7 +5273,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-breaststroke-t2-largest-mount": [
@@ -4808,7 +5295,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -4826,7 +5315,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           426
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-breaststroke-t2-largest-mount": [
@@ -4846,7 +5337,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -4864,7 +5357,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-breaststroke-t2-largest-mount": [
@@ -4884,7 +5379,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -4902,7 +5399,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -4920,7 +5419,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -4938,7 +5439,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-breaststroke-t2-middle-mount": [
@@ -4958,7 +5461,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -4976,7 +5481,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -4994,7 +5501,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -5012,7 +5521,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -5030,7 +5541,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -5048,7 +5561,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -5066,7 +5581,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -5084,7 +5601,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-breaststroke-t2-middle-mount": [
@@ -5104,7 +5623,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -5122,7 +5643,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -5140,7 +5663,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-breaststroke-t2-middle-mount": [
@@ -5160,7 +5685,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -5178,7 +5705,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -5196,7 +5725,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -5214,7 +5745,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -5232,7 +5765,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-breaststroke-t2-middle-mount": [
@@ -5252,7 +5787,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -5270,7 +5807,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           426
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-breaststroke-t2-middle-mount": [
@@ -5290,7 +5829,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -5308,7 +5849,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-breaststroke-t2-middle-mount": [
@@ -5328,7 +5871,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -5346,7 +5891,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -5364,7 +5911,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -5382,7 +5931,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-breaststroke-t3-largest-mount": [
@@ -5402,7 +5953,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -5420,7 +5973,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -5438,7 +5993,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -5456,7 +6013,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -5474,7 +6033,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -5492,7 +6053,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -5510,7 +6073,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -5528,7 +6093,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-breaststroke-t3-largest-mount": [
@@ -5548,7 +6115,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -5566,7 +6135,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -5584,7 +6155,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-breaststroke-t3-largest-mount": [
@@ -5604,7 +6177,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -5622,7 +6197,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -5640,7 +6217,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -5658,7 +6237,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -5676,7 +6257,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-breaststroke-t3-largest-mount": [
@@ -5696,7 +6279,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -5714,7 +6299,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           428
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-breaststroke-t3-largest-mount": [
@@ -5734,7 +6321,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -5752,7 +6341,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-breaststroke-t3-largest-mount": [
@@ -5772,7 +6363,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -5790,7 +6383,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -5808,7 +6403,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -5826,7 +6423,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-breaststroke-t3-middle-mount": [
@@ -5846,7 +6445,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -5864,7 +6465,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -5882,7 +6485,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -5900,7 +6505,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -5918,7 +6525,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -5936,7 +6545,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -5954,7 +6565,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -5972,7 +6585,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-breaststroke-t3-middle-mount": [
@@ -5992,7 +6607,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -6010,7 +6627,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -6028,7 +6647,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-breaststroke-t3-middle-mount": [
@@ -6048,7 +6669,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -6066,7 +6689,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -6084,7 +6709,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -6102,7 +6729,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -6120,7 +6749,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-breaststroke-t3-middle-mount": [
@@ -6140,7 +6771,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -6158,7 +6791,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           424
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-breaststroke-t3-middle-mount": [
@@ -6178,7 +6813,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -6196,7 +6833,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-breaststroke-t3-middle-mount": [
@@ -6216,7 +6855,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -6234,7 +6875,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -6252,7 +6895,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -6270,7 +6915,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-breaststroke-t4-largest-mount": [
@@ -6290,7 +6937,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -6308,7 +6957,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -6326,7 +6977,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -6344,7 +6997,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -6362,7 +7017,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -6380,7 +7037,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -6398,7 +7057,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -6416,7 +7077,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-breaststroke-t4-largest-mount": [
@@ -6436,7 +7099,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -6454,7 +7119,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -6472,7 +7139,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-breaststroke-t4-largest-mount": [
@@ -6492,7 +7161,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -6510,7 +7181,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -6528,7 +7201,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -6546,7 +7221,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -6564,7 +7241,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           288
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-breaststroke-t4-largest-mount": [
@@ -6584,7 +7263,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -6602,7 +7283,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           424
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-breaststroke-t4-largest-mount": [
@@ -6622,7 +7305,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -6640,7 +7325,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-breaststroke-t4-largest-mount": [
@@ -6660,7 +7347,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -6678,7 +7367,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -6696,7 +7387,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -6714,7 +7407,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-breaststroke-t4-middle-mount": [
@@ -6734,7 +7429,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -6752,7 +7449,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -6770,7 +7469,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -6788,7 +7489,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -6806,7 +7509,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -6824,7 +7529,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -6842,7 +7549,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -6860,7 +7569,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-breaststroke-t4-middle-mount": [
@@ -6880,7 +7591,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -6898,7 +7611,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -6916,7 +7631,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-breaststroke-t4-middle-mount": [
@@ -6936,7 +7653,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -6954,7 +7673,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -6972,7 +7693,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -6990,7 +7713,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -7008,7 +7733,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-breaststroke-t4-middle-mount": [
@@ -7028,7 +7755,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -7046,7 +7775,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           426
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-breaststroke-t4-middle-mount": [
@@ -7066,7 +7797,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -7084,7 +7817,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-breaststroke-t4-middle-mount": [
@@ -7104,7 +7839,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -7122,7 +7859,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -7140,7 +7879,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -7158,7 +7899,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "morph-breaststroke-mount": [
@@ -7178,7 +7921,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Missing forearm",
@@ -7196,7 +7941,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Missing leg",
@@ -7214,7 +7961,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-butterfly-t1-largest-mount": [
@@ -7234,7 +7983,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -7252,7 +8003,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -7270,7 +8023,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -7288,7 +8043,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -7306,7 +8063,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -7324,7 +8083,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           310
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -7342,7 +8103,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -7360,7 +8123,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           302
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-butterfly-t1-largest-mount": [
@@ -7380,7 +8145,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -7398,7 +8165,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -7416,7 +8185,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-butterfly-t1-largest-mount": [
@@ -7436,7 +8207,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -7454,7 +8227,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -7472,7 +8247,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -7490,7 +8267,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           296
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -7508,7 +8287,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           310
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-butterfly-t1-largest-mount": [
@@ -7528,7 +8309,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -7546,7 +8329,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           474
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-butterfly-t1-largest-mount": [
@@ -7566,7 +8351,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -7584,7 +8371,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-butterfly-t1-largest-mount": [
@@ -7604,7 +8393,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -7622,7 +8413,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -7640,7 +8433,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -7658,7 +8453,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-butterfly-t1-middle-mount": [
@@ -7678,7 +8475,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -7696,7 +8495,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -7714,7 +8515,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -7732,7 +8535,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -7750,7 +8555,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -7768,7 +8575,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -7786,7 +8595,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -7804,7 +8615,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           314
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-butterfly-t1-middle-mount": [
@@ -7824,7 +8637,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -7842,7 +8657,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -7860,7 +8677,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-butterfly-t1-middle-mount": [
@@ -7880,7 +8699,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -7898,7 +8719,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -7916,7 +8739,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -7934,7 +8759,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -7952,7 +8779,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           310
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-butterfly-t1-middle-mount": [
@@ -7972,7 +8801,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -7990,7 +8821,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           424
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-butterfly-t1-middle-mount": [
@@ -8010,7 +8843,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -8028,7 +8863,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-butterfly-t1-middle-mount": [
@@ -8048,7 +8885,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -8066,7 +8905,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -8084,7 +8925,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -8102,7 +8945,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-butterfly-t2-largest-mount": [
@@ -8122,7 +8967,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -8140,7 +8987,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -8158,7 +9007,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -8176,7 +9027,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -8194,7 +9047,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -8212,7 +9067,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -8230,7 +9087,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -8248,7 +9107,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-butterfly-t2-largest-mount": [
@@ -8268,7 +9129,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -8286,7 +9149,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -8304,7 +9169,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-butterfly-t2-largest-mount": [
@@ -8324,7 +9191,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -8342,7 +9211,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -8360,7 +9231,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -8378,7 +9251,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -8396,7 +9271,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           296
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-butterfly-t2-largest-mount": [
@@ -8416,7 +9293,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -8434,7 +9313,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           424
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-butterfly-t2-largest-mount": [
@@ -8454,7 +9335,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -8472,7 +9355,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-butterfly-t2-largest-mount": [
@@ -8492,7 +9377,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -8510,7 +9397,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -8528,7 +9417,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -8546,7 +9437,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-butterfly-t2-middle-mount": [
@@ -8566,7 +9459,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -8584,7 +9479,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -8602,7 +9499,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -8620,7 +9519,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -8638,7 +9539,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -8656,7 +9559,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -8674,7 +9579,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -8692,7 +9599,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-butterfly-t2-middle-mount": [
@@ -8712,7 +9621,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -8730,7 +9641,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -8748,7 +9661,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-butterfly-t2-middle-mount": [
@@ -8768,7 +9683,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -8786,7 +9703,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -8804,7 +9723,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -8822,7 +9743,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -8840,7 +9763,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-butterfly-t2-middle-mount": [
@@ -8860,7 +9785,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -8878,7 +9805,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           426
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-butterfly-t2-middle-mount": [
@@ -8898,7 +9827,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -8916,7 +9847,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-butterfly-t2-middle-mount": [
@@ -8936,7 +9869,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -8954,7 +9889,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -8972,7 +9909,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -8990,7 +9929,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-butterfly-t3-largest-mount": [
@@ -9010,7 +9951,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -9028,7 +9971,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -9046,7 +9991,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -9064,7 +10011,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -9082,7 +10031,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -9100,7 +10051,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -9118,7 +10071,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -9136,7 +10091,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-butterfly-t3-largest-mount": [
@@ -9156,7 +10113,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -9174,7 +10133,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -9192,7 +10153,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-butterfly-t3-largest-mount": [
@@ -9212,7 +10175,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -9230,7 +10195,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -9248,7 +10215,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -9266,7 +10235,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -9284,7 +10255,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-butterfly-t3-largest-mount": [
@@ -9304,7 +10277,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -9322,7 +10297,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           436
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-butterfly-t3-largest-mount": [
@@ -9342,7 +10319,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -9360,7 +10339,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-butterfly-t3-largest-mount": [
@@ -9380,7 +10361,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -9398,7 +10381,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -9416,7 +10401,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -9434,7 +10421,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-butterfly-t3-middle-mount": [
@@ -9454,7 +10443,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -9472,7 +10463,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -9490,7 +10483,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -9508,7 +10503,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -9526,7 +10523,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -9544,7 +10543,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -9562,7 +10563,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -9580,7 +10583,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-butterfly-t3-middle-mount": [
@@ -9600,7 +10605,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -9618,7 +10625,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -9636,7 +10645,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-butterfly-t3-middle-mount": [
@@ -9656,7 +10667,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -9674,7 +10687,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -9692,7 +10707,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -9710,7 +10727,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -9728,7 +10747,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-butterfly-t3-middle-mount": [
@@ -9748,7 +10769,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -9766,7 +10789,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           428
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-butterfly-t3-middle-mount": [
@@ -9786,7 +10811,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -9804,7 +10831,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-butterfly-t3-middle-mount": [
@@ -9824,7 +10853,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -9842,7 +10873,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -9860,7 +10893,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -9878,7 +10913,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-butterfly-t4-largest-mount": [
@@ -9898,7 +10935,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -9916,7 +10954,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -9934,7 +10974,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -9952,7 +10994,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -9970,7 +11014,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -9988,7 +11034,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -10006,7 +11054,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -10024,7 +11074,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-butterfly-t4-largest-mount": [
@@ -10044,7 +11096,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -10062,7 +11115,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -10080,7 +11135,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-butterfly-t4-largest-mount": [
@@ -10100,7 +11157,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -10118,7 +11176,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -10136,7 +11196,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -10154,7 +11216,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -10172,7 +11236,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-butterfly-t4-largest-mount": [
@@ -10192,7 +11258,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -10210,7 +11277,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           424
-        ]
+        ],
+        "hdSide": 1
       }
     ],
     "fluid-butterfly-t4-largest-mount": [
@@ -10230,7 +11298,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -10248,7 +11317,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-butterfly-t4-largest-mount": [
@@ -10268,7 +11339,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -10286,7 +11358,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -10304,7 +11378,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -10322,7 +11398,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-butterfly-t4-middle-mount": [
@@ -10342,7 +11420,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -10360,7 +11440,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -10378,7 +11460,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -10396,7 +11480,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -10414,7 +11500,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -10432,7 +11520,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -10450,7 +11540,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -10468,7 +11560,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-butterfly-t4-middle-mount": [
@@ -10488,7 +11582,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -10506,7 +11602,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -10524,7 +11622,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-butterfly-t4-middle-mount": [
@@ -10544,7 +11644,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -10562,7 +11664,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -10580,7 +11684,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -10598,7 +11704,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -10616,7 +11724,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-butterfly-t4-middle-mount": [
@@ -10636,7 +11746,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -10654,7 +11766,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           426
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-butterfly-t4-middle-mount": [
@@ -10674,7 +11788,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -10692,7 +11808,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-butterfly-t4-middle-mount": [
@@ -10712,7 +11830,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -10730,7 +11850,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -10748,7 +11870,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -10766,7 +11890,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "morph-butterfly-mount": [
@@ -10786,7 +11912,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Missing forearm",
@@ -10804,7 +11932,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Missing leg",
@@ -10822,7 +11952,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-backstroke-t1-largest-mount": [
@@ -10842,7 +11974,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -10860,7 +11993,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           288
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -10878,7 +12012,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -10896,7 +12031,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -10914,7 +12050,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -10932,7 +12069,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -10950,7 +12088,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -10968,7 +12107,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           358
-        ]
+        ],
+        "hdSide": 1
       }
     ],
     "abl-backstroke-t1-largest-mount": [
@@ -10988,7 +12128,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -11006,7 +12147,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -11024,7 +12167,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-backstroke-t1-largest-mount": [
@@ -11044,7 +12189,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -11062,7 +12208,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -11080,7 +12228,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -11098,7 +12248,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           310
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -11116,7 +12268,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           328
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-backstroke-t1-largest-mount": [
@@ -11136,7 +12290,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -11154,7 +12309,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           474
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-backstroke-t1-largest-mount": [
@@ -11174,7 +12331,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -11192,7 +12350,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-backstroke-t1-largest-mount": [
@@ -11212,7 +12372,8 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -11230,7 +12391,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -11248,7 +12411,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           288
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -11266,7 +12431,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           294
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-backstroke-t1-middle-mount": [
@@ -11286,7 +12453,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -11304,7 +12473,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -11322,7 +12493,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -11340,7 +12513,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -11358,7 +12533,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -11376,7 +12553,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -11394,7 +12573,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -11412,7 +12593,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           344
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-backstroke-t1-middle-mount": [
@@ -11432,7 +12615,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -11450,7 +12635,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -11468,7 +12655,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-backstroke-t1-middle-mount": [
@@ -11488,7 +12677,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -11506,7 +12697,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -11524,7 +12717,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -11542,7 +12737,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -11560,7 +12757,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-backstroke-t1-middle-mount": [
@@ -11580,7 +12779,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -11598,7 +12799,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           424
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-backstroke-t1-middle-mount": [
@@ -11618,7 +12821,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -11636,7 +12841,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-backstroke-t1-middle-mount": [
@@ -11656,7 +12863,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -11674,7 +12883,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -11692,7 +12903,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -11710,7 +12923,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-backstroke-t2-largest-mount": [
@@ -11730,7 +12945,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -11748,7 +12965,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -11766,7 +12985,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -11784,7 +13005,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -11802,7 +13025,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -11820,7 +13045,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -11838,7 +13065,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -11856,7 +13085,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           336
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-backstroke-t2-largest-mount": [
@@ -11876,7 +13107,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -11894,7 +13127,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -11912,7 +13147,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-backstroke-t2-largest-mount": [
@@ -11932,7 +13169,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -11950,7 +13189,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -11968,7 +13209,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -11986,7 +13229,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -12004,7 +13249,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           296
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-backstroke-t2-largest-mount": [
@@ -12024,7 +13271,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -12042,7 +13291,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           426
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-backstroke-t2-largest-mount": [
@@ -12062,7 +13313,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -12080,7 +13333,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-backstroke-t2-largest-mount": [
@@ -12100,7 +13355,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -12118,7 +13375,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -12136,7 +13395,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -12154,7 +13415,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-backstroke-t2-middle-mount": [
@@ -12174,7 +13437,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -12192,7 +13457,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -12210,7 +13477,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -12228,7 +13497,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -12246,7 +13517,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -12264,7 +13537,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -12282,7 +13557,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -12300,7 +13577,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           332
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-backstroke-t2-middle-mount": [
@@ -12320,7 +13599,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -12338,7 +13619,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -12356,7 +13639,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-backstroke-t2-middle-mount": [
@@ -12376,7 +13661,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -12394,7 +13681,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -12412,7 +13701,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -12430,7 +13721,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -12448,7 +13741,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           288
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-backstroke-t2-middle-mount": [
@@ -12468,7 +13763,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -12486,7 +13783,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           426
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-backstroke-t2-middle-mount": [
@@ -12506,7 +13805,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -12524,7 +13825,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-backstroke-t2-middle-mount": [
@@ -12544,7 +13847,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -12562,7 +13867,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -12580,7 +13887,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -12598,7 +13907,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-backstroke-t3-largest-mount": [
@@ -12618,7 +13929,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -12636,7 +13949,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -12654,7 +13969,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -12672,7 +13989,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -12690,7 +14009,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -12708,7 +14029,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -12726,7 +14049,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -12744,7 +14069,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           358
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-backstroke-t3-largest-mount": [
@@ -12764,7 +14091,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -12782,7 +14111,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -12800,7 +14131,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-backstroke-t3-largest-mount": [
@@ -12820,7 +14153,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -12838,7 +14173,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -12856,7 +14193,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -12874,7 +14213,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -12892,7 +14233,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-backstroke-t3-largest-mount": [
@@ -12912,7 +14255,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -12930,7 +14275,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           426
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-backstroke-t3-largest-mount": [
@@ -12950,7 +14297,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -12968,7 +14317,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-backstroke-t3-largest-mount": [
@@ -12988,7 +14339,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -13006,7 +14359,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -13024,7 +14379,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -13042,7 +14399,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-backstroke-t3-middle-mount": [
@@ -13062,7 +14421,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -13080,7 +14441,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -13098,7 +14461,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -13116,7 +14481,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -13134,7 +14501,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -13152,7 +14521,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -13170,7 +14541,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -13188,7 +14561,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           324
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-backstroke-t3-middle-mount": [
@@ -13208,7 +14583,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -13226,7 +14603,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -13244,7 +14623,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-backstroke-t3-middle-mount": [
@@ -13264,7 +14645,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -13282,7 +14665,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -13300,7 +14685,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -13318,7 +14705,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -13336,7 +14725,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           290
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-backstroke-t3-middle-mount": [
@@ -13356,7 +14747,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -13374,7 +14767,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           426
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-backstroke-t3-middle-mount": [
@@ -13394,7 +14789,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -13412,7 +14809,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-backstroke-t3-middle-mount": [
@@ -13432,7 +14831,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -13450,7 +14851,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -13468,7 +14871,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -13486,7 +14891,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-backstroke-t4-largest-mount": [
@@ -13506,7 +14913,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -13524,7 +14933,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -13542,7 +14953,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -13560,7 +14973,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -13578,7 +14993,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -13596,7 +15013,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -13614,7 +15033,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -13632,7 +15053,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           296
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-backstroke-t4-largest-mount": [
@@ -13652,7 +15075,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -13670,7 +15095,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -13688,7 +15115,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-backstroke-t4-largest-mount": [
@@ -13708,7 +15137,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -13726,7 +15157,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -13744,7 +15177,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -13762,7 +15197,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -13780,7 +15217,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-backstroke-t4-largest-mount": [
@@ -13800,7 +15239,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -13818,7 +15259,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           424
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-backstroke-t4-largest-mount": [
@@ -13838,7 +15281,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -13856,7 +15301,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-backstroke-t4-largest-mount": [
@@ -13876,7 +15323,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -13894,7 +15343,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -13912,7 +15363,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -13930,7 +15383,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "cmp-backstroke-t4-middle-mount": [
@@ -13950,7 +15405,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "AMP",
@@ -13968,7 +15425,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "DeepMimic",
@@ -13986,7 +15445,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "ADD",
@@ -14004,7 +15465,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "CFC particle PINN",
@@ -14022,7 +15485,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "OceanSim",
@@ -14040,7 +15505,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "High-resolution SPH",
@@ -14058,7 +15525,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "MuJoCo surrogate",
@@ -14076,7 +15545,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           300
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "abl-backstroke-t4-middle-mount": [
@@ -14096,7 +15567,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Whole-body raw only",
@@ -14114,7 +15587,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Per-body tokens only",
@@ -14132,7 +15607,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "flow-backstroke-t4-middle-mount": [
@@ -14152,7 +15629,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.51 m/s",
@@ -14170,7 +15649,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Against the swim, 0.75 m/s",
@@ -14188,7 +15669,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.51 m/s",
@@ -14206,7 +15689,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Cross-flow, 0.75 m/s",
@@ -14224,7 +15709,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "pool-backstroke-t4-middle-mount": [
@@ -14244,7 +15731,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "8 m pool",
@@ -14262,7 +15751,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           426
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "fluid-backstroke-t4-middle-mount": [
@@ -14282,7 +15773,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Glycerol",
@@ -14300,7 +15793,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "perturb-backstroke-t4-middle-mount": [
@@ -14320,7 +15815,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push backward",
@@ -14338,7 +15835,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push sideways",
@@ -14356,7 +15855,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Push downward",
@@ -14374,7 +15875,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ],
     "morph-backstroke-mount": [
@@ -14394,7 +15897,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Missing forearm",
@@ -14412,7 +15917,9 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           274
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       },
       {
         "badge": "Missing leg",
@@ -14430,8 +15937,11 @@ window.SITE_CONFIG = {
         "sideAr": [
           900,
           286
-        ]
+        ],
+        "hdTop": 1,
+        "hdSide": 1
       }
     ]
-  }
+  },
+  "hdBase": "https://huggingface.co/datasets/binglunwang/SWIM-videos/resolve/main/hd/"
 };
