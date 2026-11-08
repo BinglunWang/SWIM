@@ -1,6 +1,6 @@
 window.SWIM_STUDY_CONFIG = Object.freeze({
   version: "swim-motion-v1-20261108",
-  collector: "",
+  collector: "https://script.google.com/macros/s/AKfycbxdwOqqqJKRs3uvzAcFO4Zzq-AjTOWZikaSyE8Q8K3_P7OOfuBbWIYkx9egEXAND80lMA/exec",
   mediaBase: "videos/",
   clips: [
     {id: "clip01", stroke: "Backstroke", panelHeight: 584, panelY: [112, 732, 1352]},
