@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>SWIM 问卷部署</title>
+  <link rel="stylesheet" href="../style.css?v=2">
+  <style>.setup-page{max-width:840px;margin:auto;padding:48px 24px}.setup-page h2{margin-top:36px}.setup-page li{margin:10px 0}.setup-code{width:100%;height:220px;margin:18px 0;font:12px/1.5 ui-monospace,monospace;padding:12px;border:1px solid var(--line);border-radius:8px}.setup-buttons{display:flex;gap:12px;flex-wrap:wrap}.setup-page code{background:#edf3f8;padding:2px 5px;border-radius:4px}</style>
+</head>
+<body>
+  <main class="setup-page">
+    <p class="eyebrow">SWIM · 研究者设置</p>
+    <h1>连接答卷收集</h1>
+    <p>完成一次 Google 授权和部署后，参与者即可在独立网页填写。答卷保存在你的私有 Google Sheet，参与者无需登录 Google。</p>
+    <h2>1. 新建 Apps Script 项目</h2>
+    <p>打开 <a href="https://script.google.com/" target="_blank" rel="noopener">Google Apps Script</a>，点击 <strong>New project（新建项目）</strong>，命名为 <strong>SWIM User Study</strong>。</p>
+    <h2>2. 粘贴脚本并保存</h2>
+    <p>点击“复制脚本”，用完整内容替换 Apps Script 中 <code>Code.gs</code> 的默认代码，然后保存。</p>
+    <div class="setup-buttons"><button class="button button-primary" id="copy" disabled>复制脚本</button><a class="button" href="collector.gs" download>下载 collector.gs</a></div>
+    <p id="copy-status" role="status" class="small-note">正在加载脚本…</p>
+    <textarea id="code" class="setup-code" readonly aria-label="完整 Google Apps Script 脚本"></textarea>
+    <h2>3. 运行 setupStudy 并授权</h2>
+    <p>在编辑器顶部的函数下拉菜单选择 <code>setupStudy</code>，点击 <strong>Run（运行）</strong>，按提示选择 Google 账户并完成授权。</p>
+    <p>运行成功后，执行日志会显示私有答卷表链接。保存这个链接，之后可随时查看数据。</p>
+    <h2>4. 部署为 Web app</h2>
+    <ol>
+      <li>右上角 <strong>Deploy（部署） → New deployment（新建部署）</strong>。</li>
+      <li>点击类型选择旁的齿轮图标，选择 <strong>Web app（网页应用）</strong>。</li>
+      <li><strong>Execute as（执行身份）：Me（我）</strong>。</li>
+      <li><strong>Who has access（谁可以访问）：Anyone（任何人）</strong>。</li>
+      <li>点击 <strong>Deploy</strong>，复制以 <code>/exec</code> 结尾的 <strong>Web app URL</strong>。</li>
+    </ol>
+    <h2>5. 把 Web app URL 发给 Codex</h2>
+    <p>Codex 会接入网站，检查匿名访问和真实保存，然后开启正式收集。</p>
+    <h2>在哪里看数据</h2>
+    <p><strong>Responses</strong> 保存完整提交的答卷。每个视频的排序列用 <code>B&gt;A&gt;C</code> 表示从最自然到最不自然。</p>
+    <p><strong>Sessions</strong> 保存匿名会话的已完成题数、最后连接时间、恢复次数和状态：<code>active</code>（页面保持打开）、<code>paused</code>（页面离开前报告暂停）、<code>submitted</code>（已提交）。长时间无连接且未提交的会话可能中断；关闭浏览器时的暂停记录不保证送达。</p>
+    <p>同一设备和浏览器可恢复进度；换设备或清除浏览器数据后无法自动关联。不要公开答卷表或私有方法对应表。</p>
+    <p class="small-note">此设置页供研究者使用。参与者使用 <a href="../">用户研究网页</a>。</p>
+  </main>
+  <script>
+    const code = document.getElementById('code'), button = document.getElementById('copy'), status = document.getElementById('copy-status');
+    fetch('collector.gs').then(r => {if (!r.ok) throw new Error();return r.text();}).then(text => {code.value=text;button.disabled=false;status.textContent='脚本已准备好。';}).catch(() => {status.textContent='加载失败，请使用下载按钮打开脚本。';});
+    button.addEventListener('click', async () => {try {await navigator.clipboard.writeText(code.value);status.textContent='已复制。请粘贴到 Apps Script 的 Code.gs。';} catch {code.focus();code.select();status.textContent='已选中全部代码，请手动复制。';}});
+  </script>
+</body>
+</html>
